@@ -1,0 +1,45 @@
+@font-face {
+    font-family: "Aqua Grotesque";
+    src: url(../font/aqua.ttf);
+}
+
+body {
+    background-color: #EBF2F2;
+}
+
+.modul1__container {
+    display: grid;
+    grid-template-columns: repeat(16, 4rem);
+    grid-template-rows: repeat(5, 4rem);
+}
+
+h1 {
+    font-family: "Aqua grotesque";
+    font-size: 6.0rem;
+    font-weight: 400;
+    letter-spacing: -0.5rem;
+}
+
+.h1__text-background {
+    border: solid 5px #0d0d0d;
+    background-color: #C4C4C4;
+    grid-column-start: 1;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 6;
+}
+
+.pic {
+    border: solid 5px #0d0d0d;
+    grid-column-start: 9;
+    grid-column-end: 17;
+    grid-row-start: 1;
+    grid-row-end: 6;
+
+}
+
+.pic>img {
+    object-fit: cover;
+    width: 100%;
+    max-height: 100%;
+}
