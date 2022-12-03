@@ -1,0 +1,70 @@
+@font-face {
+    font-family: "Aqua Grotesque";
+    src: url(../font/aqua.ttf);
+}
+
+body {
+    background-color: #EBF2F2;
+}
+
+.module2v5__container {
+    display: grid;
+    grid-template-columns: repeat(16, 4rem);
+    grid-template-rows: repeat(6, 4rem);
+}
+
+.module2__text {
+    border: solid 5px #0d0d0d;
+    grid-column-start: 1;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 7;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    padding: 2rem 4rem;
+    line-height: 2rem
+}
+
+.text__bold {
+    font-weight: bold;
+}
+
+
+h2 {
+    grid-column-start: 9;
+    grid-column-end: 17;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    font-family: "Aqua grotesque";
+    font-size: 5.0rem;
+    font-weight: 400;
+    letter-spacing: -0.5rem;
+    padding: 0.5rem;
+    margin-top: 0;
+}
+
+
+.h2__text-background {
+    border: solid 5px #0d0d0d;
+    background-color: #2A4B8C;
+    grid-column-start: 9;
+    grid-column-end: 17;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+
+.pic {
+    border: solid 5px #0d0d0d;
+    grid-column-start: 9;
+    grid-column-end: 17;
+    grid-row-start: 3;
+    grid-row-end: 7;
+
+}
+
+.pic>img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
