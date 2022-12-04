@@ -1,0 +1,60 @@
+body {
+    background-color: #EBF2F2;
+}
+
+.module4__container {
+    display: grid;
+    grid-template-columns: repeat(16, 4rem);
+    grid-template-rows: repeat(4, 4rem);
+}
+
+
+.tile__1 {
+    border: solid 5px #0d0d0d;
+    background-color: #2A4B8C;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 5;
+}
+
+.tile__2 {
+    border: solid 5px #0d0d0d;
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.tile__3 {
+    border: solid 5px #0d0d0d;
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 2;
+    grid-row-end: 5;
+}
+
+.tile__4 {
+    border: solid 5px #0d0d0d;
+    background-color: #2A4B8C;
+    grid-column-start: 9;
+    grid-column-end: 15;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.tile__5 {
+    border: solid 5px #0d0d0d;
+    grid-column-start: 15;
+    grid-column-end: 17;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.tile__6 {
+    border: solid 5px #0d0d0d;
+    grid-column-start: 9;
+    grid-column-end: 17;
+    grid-row-start: 3;
+    grid-row-end: 5;
+}
