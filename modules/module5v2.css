@@ -13,15 +13,15 @@ body {
     grid-template-rows: repeat(8, 4rem);
 }
 
-.h2__text-background__1,
-.tile__1,
-.module5__text,
-.pic__1 {
+.m5v2__h2__text-background__1,
+.m5v2__tile__1,
+.m5v2__module5__text,
+.m5v2__pic__1 {
     border: solid 5px #0d0d0d;
 }
 
-.h2__text-background__1,
-.tile__1 {
+.m5v2__h2__text-background__1,
+.m5v2__tile__1 {
     background-color: #D93611;
 }
 
@@ -35,7 +35,7 @@ h2 {
     margin-top: 0;
 }
 
-.h2__1 {
+.m5v2__h2__1 {
     grid-column-start: 1;
     grid-column-end: 4;
     grid-row-start: 1;
@@ -43,14 +43,14 @@ h2 {
 }
 
 
-.h2__text-background__1 {
+.m5v2__h2__text-background__1 {
     grid-column-start: 1;
     grid-column-end: 16;
     grid-row-start: 1;
     grid-row-end: 4;
 }
 
-.tile__1 {
+.m5v2__tile__1 {
     grid-column-start: 16;
     grid-column-end: 17;
     grid-row-start: 1;
@@ -58,7 +58,7 @@ h2 {
 }
 
 
-.module5__text {
+.m5v2__module5__text {
     grid-column-start: 1;
     grid-column-end: 9;
     grid-row-start: 4;
@@ -68,7 +68,7 @@ h2 {
     padding: 2rem 4rem;
 }
 
-.pic__1 {
+.m5v2__pic__1 {
     grid-column-start: 9;
     grid-column-end: 17;
     grid-row-start: 4;
@@ -76,7 +76,7 @@ h2 {
 
 }
 
-.pic__1>img {
+.m5v2__pic__1>img {
     object-fit: cover;
     width: 100%;
     height: 100%;

@@ -8,58 +8,58 @@ body {
     grid-template-rows: repeat(4, 4rem);
 }
 
-.tile__1,
-.tile__2,
-.tile__3,
-.tile__4,
-.tile__5,
-.tile__6 {
+.m4__tile__1,
+.m4__tile__2,
+.m4__tile__3,
+.m4__tile__4,
+.m4__tile__5,
+.m4__tile__6 {
     border: solid 5px #0d0d0d;
 }
 
 
-.tile__1,
-.tile__4 {
+.m4__tile__1,
+.m4__tile__4 {
     background-color: #2A4B8C;
 }
 
 
-.tile__1 {
+.m4__tile__1 {
     grid-column-start: 1;
     grid-column-end: 5;
     grid-row-start: 1;
     grid-row-end: 5;
 }
 
-.tile__2 {
+.m4__tile__2 {
     grid-column-start: 5;
     grid-column-end: 9;
     grid-row-start: 1;
     grid-row-end: 2;
 }
 
-.tile__3 {
+.m4__tile__3 {
     grid-column-start: 5;
     grid-column-end: 9;
     grid-row-start: 2;
     grid-row-end: 5;
 }
 
-.tile__4 {
+.m4__tile__4 {
     grid-column-start: 9;
     grid-column-end: 15;
     grid-row-start: 1;
     grid-row-end: 3;
 }
 
-.tile__5 {
+.m4__tile__5 {
     grid-column-start: 15;
     grid-column-end: 17;
     grid-row-start: 1;
     grid-row-end: 3;
 }
 
-.tile__6 {
+.m4__tile__6 {
     grid-column-start: 9;
     grid-column-end: 17;
     grid-row-start: 3;

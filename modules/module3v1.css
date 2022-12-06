@@ -13,20 +13,20 @@ body {
     grid-template-rows: repeat(15, 4rem);
 }
 
-.module3__text,
-.h2__text-background,
-.tile__1,
-.pic__1,
-.pic__2 {
+.m3v1__module3__text,
+.m3v1__h2__text-background,
+.m3v1__tile__1,
+.m3v1__pic__1,
+.m3v1__pic__2 {
     border: solid 5px #0d0d0d;
 }
 
-.h2__text-background,
-.tile__1 {
+.m3v1__h2__text-background,
+.m3v1__tile__1 {
     background-color: #F2B807;
 }
 
-.module3__text {
+.m3v1__module3__text {
     grid-column-start: 9;
     grid-column-end: 17;
     grid-row-start: 1;
@@ -51,21 +51,21 @@ h2 {
 }
 
 
-.h2__text-background {
+.m3v1__h2__text-background {
     grid-column-start: 1;
     grid-column-end: 7;
     grid-row-start: 1;
     grid-row-end: 4;
 }
 
-.tile__1 {
+.m3v1__tile__1 {
     grid-column-start: 7;
     grid-column-end: 9;
     grid-row-start: 1;
     grid-row-end: 4;
 }
 
-.pic__1 {
+.m3v1__pic__1 {
     grid-column-start: 1;
     grid-column-end: 9;
     grid-row-start: 4;
@@ -73,13 +73,13 @@ h2 {
 
 }
 
-.pic__1>img {
+.m3v1__pic__1>img {
     object-fit: cover;
     width: 100%;
     height: 100%;
 }
 
-.pic__2 {
+.m3v1__pic__2 {
     grid-column-start: 1;
     grid-column-end: 9;
     grid-row-start: 9;
@@ -88,7 +88,7 @@ h2 {
 }
 
 
-.pic__2>img {
+.m3v1__pic__2>img {
     object-fit: cover;
     width: 100%;
     height: 100%;

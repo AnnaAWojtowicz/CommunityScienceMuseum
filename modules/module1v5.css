@@ -13,8 +13,8 @@ body {
     grid-template-rows: repeat(5, 4rem);
 }
 
-.h1__text-background,
-.pic {
+.m1v5__h1__text-background,
+.m1v5__pic {
     border: solid 5px #0d0d0d;
 }
 
@@ -27,7 +27,7 @@ h1 {
     padding: 1rem;
 }
 
-.h1__text-background {
+.m1v5__h1__text-background {
     background-color: #C4C4C4;
     grid-column-start: 1;
     grid-column-end: 9;
@@ -35,7 +35,7 @@ h1 {
     grid-row-end: 6;
 }
 
-.pic {
+.m1v5__pic {
     grid-column-start: 9;
     grid-column-end: 17;
     grid-row-start: 1;
@@ -43,7 +43,7 @@ h1 {
 
 }
 
-.pic>img {
+.m1v5__pic>img {
     object-fit: cover;
     width: 100%;
     max-height: 100%;

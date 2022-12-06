@@ -13,11 +13,11 @@ body {
     grid-template-rows: repeat(14, 4rem);
 }
 
-.h1__text-background,
-.pic,
-.tile__1,
-.tile__2,
-.module1__text {
+.m1v1__h1__text-background,
+.m1v1__pic,
+.m1v1__tile__1,
+.m1v1__tile__2,
+.m1v1__module1__text {
     border: solid 5px #0d0d0d;
 }
 
@@ -30,7 +30,7 @@ h1 {
 }
 
 
-.h1__text-background {
+.m1v1__h1__text-background {
     background-color: #C4C4C4;
     grid-column-start: 1;
     grid-column-end: 9;
@@ -38,7 +38,7 @@ h1 {
     grid-row-end: 4;
 }
 
-.pic {
+.m1v1__pic {
     grid-column-start: 9;
     grid-column-end: 17;
     grid-row-start: 1;
@@ -46,27 +46,27 @@ h1 {
 
 }
 
-.pic>img {
+.m1v1__pic>img {
     object-fit: cover;
     width: 100%;
     max-height: 100%;
 }
 
-.tile__1 {
+.m1v1__tile__1 {
     grid-column-start: 1;
     grid-column-end: 6;
     grid-row-start: 4;
     grid-row-end: 6;
 }
 
-.tile__2 {
+.m1v1__tile__2 {
     grid-column-start: 6;
     grid-column-end: 9;
     grid-row-start: 4;
     grid-row-end: 6;
 }
 
-.module1__text {
+.m1v1__module1__text {
     grid-column-start: 1;
     grid-column-end: 17;
     grid-row-start: 6;
