@@ -1,0 +1,71 @@
+body {
+    background-color: #F2B807;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    border-top: solid 5px #0d0d0d;
+    margin: 0;
+}
+
+.footer__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.5rem auto;
+
+}
+
+/*logo*/
+
+.footer__logo {
+    display: flex;
+    align-items: center;
+    margin: 0.25rem 1rem;
+}
+
+.footer__pic {
+    width: 3.5rem;
+    max-height: 2.5rem;
+}
+
+.footer__img {
+    max-width: 4rem;
+    max-height: 2.5rem;
+}
+
+.footer__museum-name {
+    font-size: 0.75rem;
+}
+
+/*address and contact*/
+
+.footer__element__address {
+    text-align: center;
+}
+
+.footer__info {
+    display: flex;
+    margin: auto 2rem;
+    text-align: center;
+}
+
+.footer__element {
+    margin: auto 1rem;
+}
+
+
+/*social media*/
+
+.footer__soc-media-elements {
+    display: flex;
+}
+
+.footer__soc-media-element {
+    width: 3.5rem;
+    max-height: 2.5rem;
+    margin: auto 0.25rem;
+}
+
+.footer__soc-media-logo {
+    max-width: 4rem;
+    max-height: 2.5rem;
+}
