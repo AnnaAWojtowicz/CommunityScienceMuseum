@@ -13,8 +13,18 @@ body {
     grid-template-rows: repeat(6, 4rem);
 }
 
-.module2__text {
+.text__bold {
+    font-weight: bold;
+}
+
+.module2__text,
+.h2__text-background,
+.pic {
     border: solid 5px #0d0d0d;
+}
+
+
+.module2__text {
     grid-column-start: 1;
     grid-column-end: 9;
     grid-row-start: 1;
@@ -25,9 +35,7 @@ body {
     line-height: 2rem
 }
 
-.text__bold {
-    font-weight: bold;
-}
+
 
 
 h2 {
@@ -45,7 +53,6 @@ h2 {
 
 
 .h2__text-background {
-    border: solid 5px #0d0d0d;
     background-color: #2A4B8C;
     grid-column-start: 9;
     grid-column-end: 17;
@@ -55,7 +62,6 @@ h2 {
 
 
 .pic {
-    border: solid 5px #0d0d0d;
     grid-column-start: 9;
     grid-column-end: 17;
     grid-row-start: 3;

@@ -13,8 +13,20 @@ body {
     grid-template-rows: repeat(15, 4rem);
 }
 
-.module3__text {
+.module3__text,
+.h2__text-background,
+.tile__1,
+.pic__1,
+.pic__2 {
     border: solid 5px #0d0d0d;
+}
+
+.h2__text-background,
+.tile__1 {
+    background-color: #F2B807;
+}
+
+.module3__text {
     grid-column-start: 9;
     grid-column-end: 17;
     grid-row-start: 1;
@@ -40,8 +52,6 @@ h2 {
 
 
 .h2__text-background {
-    border: solid 5px #0d0d0d;
-    background-color: #F2B807;
     grid-column-start: 1;
     grid-column-end: 7;
     grid-row-start: 1;
@@ -49,8 +59,6 @@ h2 {
 }
 
 .tile__1 {
-    border: solid 5px #0d0d0d;
-    background-color: #F2B807;
     grid-column-start: 7;
     grid-column-end: 9;
     grid-row-start: 1;
@@ -58,7 +66,6 @@ h2 {
 }
 
 .pic__1 {
-    border: solid 5px #0d0d0d;
     grid-column-start: 1;
     grid-column-end: 9;
     grid-row-start: 4;
@@ -73,7 +80,6 @@ h2 {
 }
 
 .pic__2 {
-    border: solid 5px #0d0d0d;
     grid-column-start: 1;
     grid-column-end: 9;
     grid-row-start: 9;

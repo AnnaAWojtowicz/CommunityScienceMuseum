@@ -13,8 +13,19 @@ body {
     grid-template-rows: repeat(9, 4rem);
 }
 
-.module2__text {
+.module2__text,
+.h2__text-background,
+.tile__1,
+.pic {
     border: solid 5px #0d0d0d;
+}
+
+.h2__text-background,
+.tile__1 {
+    background-color: #D93611;
+}
+
+.module2__text {
     grid-column-start: 1;
     grid-column-end: 9;
     grid-row-start: 1;
@@ -40,8 +51,6 @@ h2 {
 
 
 .h2__text-background {
-    border: solid 5px #0d0d0d;
-    background-color: #D93611;
     grid-column-start: 9;
     grid-column-end: 15;
     grid-row-start: 1;
@@ -49,8 +58,6 @@ h2 {
 }
 
 .tile__1 {
-    border: solid 5px #0d0d0d;
-    background-color: #D93611;
     grid-column-start: 15;
     grid-column-end: 17;
     grid-row-start: 1;
@@ -58,7 +65,6 @@ h2 {
 }
 
 .pic {
-    border: solid 5px #0d0d0d;
     grid-column-start: 9;
     grid-column-end: 17;
     grid-row-start: 3;

@@ -13,8 +13,15 @@ body {
     grid-template-rows: repeat(7, 4rem);
 }
 
-.module2__text {
+.module2__text,
+.h2__text-background,
+.pic {
     border: solid 5px #0d0d0d;
+}
+
+
+
+.module2__text {
     grid-column-start: 1;
     grid-column-end: 9;
     grid-row-start: 1;
@@ -40,7 +47,6 @@ h2 {
 
 
 .h2__text-background {
-    border: solid 5px #0d0d0d;
     background-color: #2A4B8C;
     grid-column-start: 9;
     grid-column-end: 17;
@@ -50,7 +56,6 @@ h2 {
 
 
 .pic {
-    border: solid 5px #0d0d0d;
     grid-column-start: 9;
     grid-column-end: 17;
     grid-row-start: 4;

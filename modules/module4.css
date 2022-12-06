@@ -8,10 +8,23 @@ body {
     grid-template-rows: repeat(4, 4rem);
 }
 
+.tile__1,
+.tile__2,
+.tile__3,
+.tile__4,
+.tile__5,
+.tile__6 {
+    border: solid 5px #0d0d0d;
+}
+
+
+.tile__1,
+.tile__4 {
+    background-color: #2A4B8C;
+}
+
 
 .tile__1 {
-    border: solid 5px #0d0d0d;
-    background-color: #2A4B8C;
     grid-column-start: 1;
     grid-column-end: 5;
     grid-row-start: 1;
@@ -19,7 +32,6 @@ body {
 }
 
 .tile__2 {
-    border: solid 5px #0d0d0d;
     grid-column-start: 5;
     grid-column-end: 9;
     grid-row-start: 1;
@@ -27,7 +39,6 @@ body {
 }
 
 .tile__3 {
-    border: solid 5px #0d0d0d;
     grid-column-start: 5;
     grid-column-end: 9;
     grid-row-start: 2;
@@ -35,8 +46,6 @@ body {
 }
 
 .tile__4 {
-    border: solid 5px #0d0d0d;
-    background-color: #2A4B8C;
     grid-column-start: 9;
     grid-column-end: 15;
     grid-row-start: 1;
@@ -44,7 +53,6 @@ body {
 }
 
 .tile__5 {
-    border: solid 5px #0d0d0d;
     grid-column-start: 15;
     grid-column-end: 17;
     grid-row-start: 1;
@@ -52,7 +60,6 @@ body {
 }
 
 .tile__6 {
-    border: solid 5px #0d0d0d;
     grid-column-start: 9;
     grid-column-end: 17;
     grid-row-start: 3;

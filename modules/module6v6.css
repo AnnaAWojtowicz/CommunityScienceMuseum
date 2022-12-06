@@ -27,7 +27,6 @@ h2 {
 }
 
 .h2__text-background {
-    border: solid 5px #0d0d0d;
     background-color: #D9D9D9;
     grid-column-start: 1;
     grid-column-end: 9;
@@ -37,7 +36,6 @@ h2 {
 }
 
 .pic {
-    border: solid 5px #0d0d0d;
     grid-column-start: 1;
     grid-column-end: 9;
     grid-row-start: 11;
@@ -50,7 +48,8 @@ h2 {
     height: 100%;
 }
 
-
+.h2__text-background,
+.pic,
 .tile__1,
 .tile__2,
 .tile__3,

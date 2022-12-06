@@ -13,6 +13,12 @@ body {
     grid-template-rows: repeat(5, 4rem);
 }
 
+.h1__text-background,
+.pic {
+    border: solid 5px #0d0d0d;
+}
+
+
 h1 {
     font-family: "Aqua grotesque";
     font-size: 5.5rem;
@@ -22,7 +28,6 @@ h1 {
 }
 
 .h1__text-background {
-    border: solid 5px #0d0d0d;
     background-color: #C4C4C4;
     grid-column-start: 1;
     grid-column-end: 9;
@@ -31,7 +36,6 @@ h1 {
 }
 
 .pic {
-    border: solid 5px #0d0d0d;
     grid-column-start: 9;
     grid-column-end: 17;
     grid-row-start: 1;
