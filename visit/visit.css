@@ -198,6 +198,31 @@ h2 {
     height: 100%;
 }
 
+.m3v5__contact {
+    grid-column-start: 16;
+    grid-column-end: 17;
+    grid-row-start: 7;
+    grid-row-end: 8;
+    background-color: #0d0d0d;
+    position: relative;
+
+}
+
+.m3v5__mail {
+    grid-column-start: 16;
+    grid-column-end: 17;
+    grid-row-start: 7;
+    grid-row-end: 8;
+    color: #EBF2F2;
+    font-size: 3rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+}
+
+
 /* module 2v6 */
 .module2v6__container {
     display: grid;
