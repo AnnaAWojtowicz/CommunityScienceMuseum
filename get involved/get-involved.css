@@ -1,0 +1,328 @@
+.main__explore {
+    display: grid;
+    grid-template-columns: 1fr 64rem 1fr;
+    grid-template-rows: auto;
+}
+
+.get-involved__column {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+
+/* module 1v5 */
+.module1v5__container {
+    display: grid;
+    grid-template-columns: repeat(16, 4rem);
+    grid-template-rows: repeat(5, 4rem);
+}
+
+.m1v5__h1__text-background,
+.m1v5__pic {
+    border: solid 5px #0d0d0d;
+}
+
+
+h1 {
+    font-family: "Aqua grotesque";
+    font-size: 5.5rem;
+    font-weight: 400;
+    letter-spacing: -0.5rem;
+    padding: 1rem;
+}
+
+.m1v5__h1__text-background {
+    border-top: 0px;
+    background-color: #C4C4C4;
+    grid-column-start: 1;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 6;
+}
+
+.m1v5__pic {
+    border-top: 0px;
+    grid-column-start: 9;
+    grid-column-end: 17;
+    grid-row-start: 1;
+    grid-row-end: 6;
+
+}
+
+.m1v5__pic>img {
+    object-fit: cover;
+    width: 100%;
+    max-height: 100%;
+}
+
+
+/* module 2v8 */
+.module2v8__container {
+    display: grid;
+    grid-template-columns: repeat(16, 4rem);
+    grid-template-rows: repeat(9, 4rem);
+}
+
+.m2v8__module2__text,
+.m2v8__h2__text-background,
+.m2v8__tile__1,
+.m2v8__pic {
+    border: solid 5px #0d0d0d;
+}
+
+.m2v8__h2__text-background,
+.m2v8__tile__1 {
+    background-color: #F2B807;
+}
+
+.m2v8__module2__text {
+    grid-column-start: 1;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 10;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    padding: 2rem 4rem;
+}
+
+
+h2 {
+    grid-column-start: 9;
+    grid-column-end: 15;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    font-family: "Aqua grotesque";
+    font-size: 5.0rem;
+    font-weight: 400;
+    letter-spacing: -0.5rem;
+    padding: 0.5rem;
+    margin-top: 0;
+}
+
+
+.m2v8__h2__text-background {
+    grid-column-start: 9;
+    grid-column-end: 15;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.m2v8__tile__1 {
+    grid-column-start: 15;
+    grid-column-end: 17;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.m2v8__pic {
+    grid-column-start: 9;
+    grid-column-end: 17;
+    grid-row-start: 3;
+    grid-row-end: 10;
+
+}
+
+.m2v8__pic>img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* module 3v8 */
+.module3v8__container {
+    display: grid;
+    grid-template-columns: repeat(16, 4rem);
+    grid-template-rows: repeat(10, 4rem);
+}
+
+.m3v8__module3__text,
+.m3v8__h2__text-background,
+.m3v8__pic {
+    border: solid 5px #0d0d0d;
+}
+
+
+.m3v8__module3__text {
+    grid-column-start: 9;
+    grid-column-end: 17;
+    grid-row-start: 1;
+    grid-row-end: 11;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    padding: 2rem 4rem;
+}
+
+
+h2 {
+    grid-column-start: 1;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    font-family: "Aqua grotesque";
+    font-size: 5.0rem;
+    font-weight: 400;
+    letter-spacing: -0.5rem;
+    padding: 0.5rem;
+    margin-top: 0;
+}
+
+
+.m3v8__h2__text-background {
+    background-color: #D93611;
+    grid-column-start: 1;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+
+.m3v8__pic {
+    grid-column-start: 1;
+    grid-column-end: 9;
+    grid-row-start: 3;
+    grid-row-end: 11;
+
+}
+
+.m3v8__pic>img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+/* module 2v9 */
+.module2v9__container {
+    display: grid;
+    grid-template-columns: repeat(16, 4rem);
+    grid-template-rows: repeat(8, 4rem);
+}
+
+.m2v9__module2__text,
+.m2v9__h2__text-background,
+.m2v9__pic {
+    border: solid 5px #0d0d0d;
+}
+
+
+
+.m2v9__module2__text {
+    grid-column-start: 1;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 9;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    padding: 2rem 4rem;
+}
+
+
+h2 {
+    grid-column-start: 9;
+    grid-column-end: 17;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    font-family: "Aqua grotesque";
+    font-size: 5.0rem;
+    font-weight: 400;
+    letter-spacing: -0.5rem;
+    padding: 0.5rem;
+    margin-top: 0;
+}
+
+
+.m2v9__h2__text-background {
+    background-color: #2A4B8C;
+    grid-column-start: 9;
+    grid-column-end: 17;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+
+.m2v9__pic {
+    grid-column-start: 9;
+    grid-column-end: 17;
+    grid-row-start: 3;
+    grid-row-end: 9;
+
+}
+
+.m2v9__pic>img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* module 4 */
+.module4__container {
+    display: grid;
+    grid-template-columns: repeat(16, 4rem);
+    grid-template-rows: repeat(4, 4rem);
+}
+
+.m4__tile__1,
+.m4__tile__2,
+.m4__tile__3,
+.m4__tile__4,
+.m4__tile__5,
+.m4__tile__6 {
+    border: solid 5px #0d0d0d;
+}
+
+
+.m4__tile__1,
+.m4__tile__4 {
+    background-color: #2A4B8C;
+}
+
+
+.m4__tile__1 {
+    border-bottom: 0px;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 5;
+}
+
+.m4__tile__2 {
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.m4__tile__3 {
+    border-bottom: 0px;
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 2;
+    grid-row-end: 5;
+}
+
+.m4__tile__4 {
+    grid-column-start: 9;
+    grid-column-end: 15;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.m4__tile__5 {
+    grid-column-start: 15;
+    grid-column-end: 17;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.m4__tile__6 {
+    border-bottom: 0px;
+    grid-column-start: 9;
+    grid-column-end: 17;
+    grid-row-start: 3;
+    grid-row-end: 5;
+}
