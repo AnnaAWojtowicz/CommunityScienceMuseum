@@ -8,6 +8,17 @@ body {
     margin: 0;
 }
 
+a:link,
+a:visited,
+a:active {
+    text-decoration: none;
+    color: #0d0d0d;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
 
 /* landing site */
 .main__landing-site {
@@ -90,6 +101,9 @@ body {
     font-size: 1.5rem;
     border-bottom: solid 10px #0d0d0d;
     margin: 0;
+    position: sticky;
+    top: 0;
+    z-index: 99;
 }
 
 .nav__container {
@@ -116,6 +130,7 @@ body {
 
 .nav__museum-name {
     font-size: 0.75rem;
+    font-weight: bold;
 }
 
 .nav__elements {
@@ -143,6 +158,9 @@ h1 {
     letter-spacing: -0.5rem;
     padding: 1rem;
     margin-top: 0;
+    margin-bottom: 0;
+    position: relative;
+    bottom: -5.1rem;
 }
 
 .m6v1__h1__text-background,
@@ -801,6 +819,7 @@ h2 {
 
 .footer__museum-name {
     font-size: 0.75rem;
+    font-weight: bold;
 }
 
 /*address and contact*/
