@@ -195,26 +195,26 @@ h4 {
 .m7v3__form__elements {
     display: grid;
     grid-template-columns: repeat(10, 4rem);
-    grid-template-rows: repeat(14, 4rem);
+    grid-template-rows: repeat(8, 4rem);
     font-family: 'Roboto', sans-serif;
     font-size: 1rem;
 }
 
-#m7v3__name {
+.m7v3__label--input__name {
     grid-column-start: 3;
     grid-column-end: 9;
     grid-row-start: 2;
     grid-row-end: 3;
 }
 
-#m7v3__email {
+.m7v3__label--input__email {
     grid-column-start: 3;
     grid-column-end: 9;
     grid-row-start: 3;
     grid-row-end: 4;
 }
 
-#m7v3__message {
+.m7v3__label--input__message {
     grid-column-start: 3;
     grid-column-end: 9;
     grid-row-start: 4;
@@ -278,8 +278,8 @@ h4 {
 .m7v3__contact {
     grid-column-start: 10;
     grid-column-end: 11;
-    grid-row-start: 10;
-    grid-row-end: 11;
+    grid-row-start: 7;
+    grid-row-end: 8;
     background-color: #0d0d0d;
     position: relative;
 
@@ -288,8 +288,8 @@ h4 {
 .m7v3__send {
     grid-column-start: 10;
     grid-column-end: 11;
-    grid-row-start: 10;
-    grid-row-end: 11;
+    grid-row-start: 7;
+    grid-row-end: 8;
     color: #EBF2F2;
     font-size: 3rem;
     position: absolute;
