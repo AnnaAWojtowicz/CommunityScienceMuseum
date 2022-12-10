@@ -1,0 +1,131 @@
+body {
+    background-color: #EBF2F2;
+}
+
+.module7v4__container {
+    display: grid;
+    grid-template-columns: repeat(10, 4rem);
+    grid-template-rows: repeat(14, 4rem);
+}
+
+.m7v4__h1__text-background,
+.m7v4__h4__text-background,
+.m7v4__tile__1,
+.m7v4__tile__2,
+.m7v4__tile__3,
+.m7v4__tile__4,
+.m7v4__tile__5 {
+    border: solid 5px #0d0d0d;
+}
+
+
+h1 {
+    font-family: "Aqua grotesque";
+    font-size: 5.5rem;
+    font-weight: 400;
+    letter-spacing: -0.5rem;
+    padding: 1rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    position: relative;
+    bottom: -2.8rem;
+}
+
+.m7v4__h1__text-background {
+    border-top: 0px;
+    background-color: #F2B807;
+    grid-column-start: 1;
+    grid-column-end: 11;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+h4 {
+    grid-column-start: 1;
+    grid-column-end: 11;
+    grid-row-start: 12;
+    grid-row-end: 14;
+    font-family: "Aqua grotesque";
+    font-size: 3.5rem;
+    font-weight: 400;
+    letter-spacing: -0.5rem;
+    margin-top: 0;
+}
+
+
+.m7v4__h4__text-background {
+    background-color: #F2B807;
+    grid-column-start: 1;
+    grid-column-end: 11;
+    grid-row-start: 12;
+    grid-row-end: 14;
+}
+
+.m7v4__tile__1,
+.m7v4__tile__2 {
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.m7v4__tile__3,
+.m7v4__tile__4 {
+    grid-row-start: 14;
+    grid-row-end: 15;
+}
+
+.m7v4__tile__3,
+.m7v4__tile__4 {
+    border-bottom: 0;
+}
+
+.m7v4__tile__1 {
+    grid-column-start: 1;
+    grid-column-end: 7;
+}
+
+.m7v4__tile__2 {
+    grid-column-start: 7;
+    grid-column-end: 11;
+}
+
+.m7v4__tile__3 {
+    grid-column-start: 1;
+    grid-column-end: 9;
+}
+
+.m7v4__tile__4 {
+    grid-column-start: 9;
+    grid-column-end: 11;
+}
+
+.m7v4__tile__5 {
+    grid-column-start: 1;
+    grid-column-end: 11;
+    grid-row-start: 4;
+    grid-row-end: 12;
+}
+
+
+.m7v4__forward {
+    grid-column-start: 10;
+    grid-column-end: 11;
+    grid-row-start: 10;
+    grid-row-end: 11;
+    background-color: #0d0d0d;
+    position: relative;
+
+}
+
+.m7v4__arrow-forward {
+    grid-column-start: 10;
+    grid-column-end: 11;
+    grid-row-start: 10;
+    grid-row-end: 11;
+    color: #EBF2F2;
+    font-size: 3rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+}
