@@ -143,19 +143,8 @@
 }
 
 
-h1 {
-    font-family: "Aqua grotesque";
-    font-size: 5.5rem;
-    font-weight: 400;
-    letter-spacing: -0.5rem;
-    padding: 1rem;
-    margin-top: 0;
-    margin-bottom: 0;
-    position: relative;
-    bottom: -2.8rem;
-}
-
 .m7v3__h1__text-background {
+    position: relative;
     border-top: 0px;
     background-color: #F2B807;
     grid-column-start: 1;
