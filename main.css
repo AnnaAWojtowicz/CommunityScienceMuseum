@@ -104,6 +104,44 @@ a:hover {
 }
 
 
+.m6v2__h2__text,
+.m6v3__h2__text,
+.m6v4__h2__text,
+.m6v5__h2__text,
+.m6v6__h2__text,
+.m3v1__h2__text,
+.m2v4__h2__text,
+.m3v2__h2__text,
+.m2v1__h2__text,
+.m3v3__h2__text,
+.m2v2__h2__text,
+.m3v4__h2__text,
+.m5v1__h2__1,
+.m5v1__h2__2,
+.m5v2__h2__1,
+.m5v3__h2__1,
+.m5v3__h2__2,
+.m2v5__h2__text,
+.m3v5__h2__text,
+.m2v6__h2__text,
+.m3v6__h2__text,
+.m2v7__h2__text,
+.m3v7__h2__text,
+.m2v8__h2__text,
+.m3v8__h2__text,
+.m2v9__h2__text {
+    position: absolute;
+    font-family: "Aqua grotesque";
+    font-size: 5.0rem;
+    font-weight: 400;
+    letter-spacing: -0.5rem;
+    padding: 0.5rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    bottom: -1.8rem;
+}
+
+
 
 
 
@@ -267,12 +305,6 @@ h1 {
 }
 
 h2 {
-    font-family: "Aqua grotesque";
-    font-size: 5.0rem;
-    font-weight: 400;
-    letter-spacing: -0.5rem;
-    padding: 0.5rem;
-    margin-top: 0;
     grid-column-start: 1;
     grid-column-end: 9;
     grid-row-start: 1;
@@ -280,6 +312,7 @@ h2 {
 }
 
 .m6v2__h2__text-background {
+    position: relative;
     background-color: #D9D9D9;
     grid-column-start: 1;
     grid-column-end: 9;
@@ -383,12 +416,6 @@ h2 {
 }
 
 h2 {
-    font-family: "Aqua grotesque";
-    font-size: 5.0rem;
-    font-weight: 400;
-    letter-spacing: -0.5rem;
-    padding: 0.5rem;
-    margin-top: 0;
     grid-column-start: 1;
     grid-column-end: 9;
     grid-row-start: 1;
@@ -396,6 +423,7 @@ h2 {
 }
 
 .m6v3__h2__text-background {
+    position: relative;
     background-color: #D9D9D9;
     grid-column-start: 1;
     grid-column-end: 9;
@@ -490,12 +518,6 @@ h2 {
 }
 
 h2 {
-    font-family: "Aqua grotesque";
-    font-size: 5.0rem;
-    font-weight: 400;
-    letter-spacing: -0.5rem;
-    padding: 0.5rem;
-    margin-top: 0;
     grid-column-start: 1;
     grid-column-end: 9;
     grid-row-start: 6;
@@ -503,6 +525,7 @@ h2 {
 }
 
 .m6v4__h2__text-background {
+    position: relative;
     background-color: #D9D9D9;
     grid-column-start: 1;
     grid-column-end: 9;
@@ -567,12 +590,6 @@ h2 {
 }
 
 h2 {
-    font-family: "Aqua grotesque";
-    font-size: 5.0rem;
-    font-weight: 400;
-    letter-spacing: -0.5rem;
-    padding: 0.5rem;
-    margin-top: 0;
     grid-column-start: 1;
     grid-column-end: 9;
     grid-row-start: 9;
@@ -580,6 +597,7 @@ h2 {
 }
 
 .m6v5__h2__text-background {
+    position: relative;
     background-color: #D9D9D9;
     grid-column-start: 1;
     grid-column-end: 9;
@@ -673,12 +691,6 @@ h2 {
 }
 
 h2 {
-    font-family: "Aqua grotesque";
-    font-size: 5.0rem;
-    font-weight: 400;
-    letter-spacing: -0.5rem;
-    padding: 0.5rem;
-    margin-top: 0;
     grid-column-start: 1;
     grid-column-end: 9;
     grid-row-start: 8;
@@ -686,6 +698,7 @@ h2 {
 }
 
 .m6v6__h2__text-background {
+    position: relative;
     background-color: #D9D9D9;
     grid-column-start: 1;
     grid-column-end: 9;

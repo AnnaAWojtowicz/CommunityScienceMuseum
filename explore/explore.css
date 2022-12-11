@@ -100,16 +100,11 @@ h2 {
     grid-column-end: 7;
     grid-row-start: 1;
     grid-row-end: 4;
-    font-family: "Aqua grotesque";
-    font-size: 5.0rem;
-    font-weight: 400;
-    letter-spacing: -0.5rem;
-    padding: 0.5rem;
-    margin-top: 0;
 }
 
 
 .m3v1__h2__text-background {
+    position: relative;
     grid-column-start: 1;
     grid-column-end: 7;
     grid-row-start: 1;
@@ -215,17 +210,11 @@ h2 {
     grid-column-end: 16;
     grid-row-start: 1;
     grid-row-end: 4;
-    font-family: "Aqua grotesque";
-    font-size: 5.0rem;
-    font-weight: 400;
-    letter-spacing: -0.5rem;
-    padding: 0.5rem;
-    margin-top: 0;
 }
 
 
 .m2v4__h2__text-background {
-
+    position: relative;
     grid-column-start: 9;
     grid-column-end: 16;
     grid-row-start: 1;
@@ -308,16 +297,11 @@ h2 {
     grid-column-end: 9;
     grid-row-start: 1;
     grid-row-end: 4;
-    font-family: "Aqua grotesque";
-    font-size: 5.0rem;
-    font-weight: 400;
-    letter-spacing: -0.5rem;
-    padding: 0.5rem;
-    margin-top: 0;
 }
 
 
 .m3v2__h2__text-background {
+    position: relative;
     background-color: #2A4B8C;
     grid-column-start: 1;
     grid-column-end: 9;
