@@ -159,14 +159,16 @@ h4 {
     grid-row-start: 12;
     grid-row-end: 14;
     font-family: "Aqua grotesque";
-    font-size: 3.5rem;
+    font-size: 3rem;
     font-weight: 400;
-    letter-spacing: -0.5rem;
-    margin-top: 0;
+    letter-spacing: -0.25rem;
+    margin: 2rem;
+
 }
 
 
 .m7v4__h4__text-background {
+    position: relative;
     background-color: #F2B807;
     grid-column-start: 1;
     grid-column-end: 11;
