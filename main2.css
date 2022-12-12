@@ -23,7 +23,7 @@ a:hover {
 /* landing site */
 .main__landing-site {
     display: grid;
-    grid-template-columns: 1fr 64rem 1fr;
+    grid-template-columns: 1fr 32rem 32rem 1fr;
     grid-template-rows: auto;
 }
 
@@ -36,8 +36,8 @@ a:hover {
 }
 
 .panel-right__landing-site {
-    grid-column-start: 3;
-    grid-column-end: 3;
+    grid-column-start: 4;
+    grid-column-end: 5;
     grid-row-start: 1;
     grid-row-end: 2;
     border-left: solid 5px #0d0d0d;
@@ -48,9 +48,13 @@ a:hover {
     grid-column-end: 3;
     grid-row-start: 1;
     grid-row-end: 2;
-    display: grid;
-    grid-template-columns: repeat(16, 4rem);
-    grid-template-rows: repeat(52, 4rem);
+}
+
+.landing-site__column__2 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
 }
 
 
@@ -193,10 +197,6 @@ a:hover {
 
 /* module 6v1 */
 .module6v1__container {
-    grid-column-start: 1;
-    grid-column-end: 9;
-    grid-row-start: 1;
-    grid-row-end: 14;
     display: grid;
     grid-template-columns: repeat(8, 4rem);
     grid-template-rows: repeat(13, 4rem);
@@ -299,10 +299,6 @@ h1 {
 
 /* module 6v2 */
 .module6v2__container {
-    grid-column-start: 1;
-    grid-column-end: 9;
-    grid-row-start: 14;
-    grid-row-end: 34;
     display: grid;
     grid-template-columns: repeat(8, 4rem);
     grid-template-rows: repeat(20, 4rem);
@@ -414,10 +410,6 @@ h2 {
 
 /* module 6v3 */
 .module6v3__container {
-    grid-column-start: 1;
-    grid-column-end: 9;
-    grid-row-start: 34;
-    grid-row-end: 53;
     display: grid;
     grid-template-columns: repeat(8, 4rem);
     grid-template-rows: repeat(19, 4rem);
@@ -520,10 +512,6 @@ h2 {
 
 /* module 6v4 */
 .module6v4__container {
-    grid-column-start: 9;
-    grid-column-end: 17;
-    grid-row-start: 1;
-    grid-row-end: 15;
     display: grid;
     grid-template-columns: repeat(8, 4rem);
     grid-template-rows: repeat(14, 4rem);
@@ -596,10 +584,6 @@ h2 {
 
 /* module 6v5 */
 .module6v5__container {
-    grid-column-start: 9;
-    grid-column-end: 17;
-    grid-row-start: 15;
-    grid-row-end: 35;
     display: grid;
     grid-template-columns: repeat(8, 4rem);
     grid-template-rows: repeat(20, 4rem);
@@ -701,10 +685,6 @@ h2 {
 
 /* module 6v6 */
 .module6v6__container {
-    grid-column-start: 9;
-    grid-column-end: 17;
-    grid-row-start: 35;
-    grid-row-end: 53;
     display: grid;
     grid-template-columns: repeat(8, 4rem);
     grid-template-rows: repeat(18, 4rem);

@@ -1,0 +1,7 @@
+@media (max-width: 640px) {
+    .main__landing-site {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+}
