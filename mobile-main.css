@@ -1,10 +1,14 @@
 @media (max-width: 640px) {
 
-    /* header,
+    header,
     footer {
         display: none;
-    } */
+    }
 
+    body {
+        padding: 0;
+
+    }
 
 
     .main__landing-site {

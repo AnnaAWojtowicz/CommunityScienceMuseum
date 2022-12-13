@@ -1,3 +1,13 @@
+* {
+    box-sizing: border-box;
+    /* overflow-x: hidden; */
+}
+
+
+.footer__body {
+    display: none;
+}
+
 @font-face {
     font-family: "Aqua Grotesque";
     src: url(../font/aqua.ttf);
@@ -6,7 +16,8 @@
 body {
     background-color: #EBF2F2;
     margin: 0;
-    min-width: 64rem;
+
+
 }
 
 a:link,
@@ -21,10 +32,63 @@ a:hover {
 }
 
 
+h1 {
+    font-family: "Aqua grotesque";
+    font-size: clamp(3.75rem, 8.5vw, 5rem);
+    font-weight: 400;
+    letter-spacing: -0.5rem;
+    padding: 1rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    position: absolute;
+    bottom: -2rem;
+}
+
+
+.m6v2__h2__text,
+.m6v3__h2__text,
+.m6v4__h2__text,
+.m6v5__h2__text,
+.m6v6__h2__text,
+.m3v1__h2__text,
+.m2v4__h2__text,
+.m3v2__h2__text,
+.m2v1__h2__text,
+.m3v3__h2__text,
+.m2v2__h2__text,
+.m3v4__h2__text,
+.m5v1__h2__1,
+.m5v1__h2__2,
+.m5v2__h2__1,
+.m5v3__h2__1,
+.m5v3__h2__2,
+.m2v5__h2__text,
+.m3v5__h2__text,
+.m2v6__h2__text,
+.m3v6__h2__text,
+.m2v7__h2__text,
+.m3v7__h2__text,
+.m2v8__h2__text,
+.m3v8__h2__text,
+.m2v9__h2__text {
+    position: absolute;
+    font-family: "Aqua grotesque";
+    font-size: clamp(1rem, 8vw, 3rem);
+    font-weight: 400;
+    letter-spacing: -0.25rem;
+    padding: 0.5rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    bottom: -1.3rem;
+}
+
+
+
+
 /* landing site */
 .main__landing-site {
     display: grid;
-    grid-template-columns: 1fr 64rem 1fr;
+    grid-template-columns: minmax(0, 1fr) minmax(32rem, 64rem) minmax(0, 1fr);
     grid-template-rows: auto;
 }
 
@@ -33,7 +97,7 @@ a:hover {
     grid-column-end: 2;
     grid-row-start: 1;
     grid-row-end: 2;
-    border-right: solid 5px #0d0d0d;
+    /* border-right: solid 5px #0d0d0d; */
 }
 
 .panel-right__landing-site {
@@ -41,7 +105,7 @@ a:hover {
     grid-column-end: 3;
     grid-row-start: 1;
     grid-row-end: 2;
-    border-left: solid 5px #0d0d0d;
+    /* border-left: solid 5px #0d0d0d; */
 }
 
 .landing-site__column__1 {
@@ -50,8 +114,8 @@ a:hover {
     grid-row-start: 1;
     grid-row-end: 2;
     display: grid;
-    grid-template-columns: repeat(16, 4rem);
-    grid-template-rows: repeat(52, 4rem);
+    grid-template-columns: repeat(16, minmax(1rem, 4rem));
+    grid-template-rows: repeat(52, minmax(1rem, 4rem));
 }
 
 
@@ -101,42 +165,6 @@ a:hover {
 }
 
 
-.m6v2__h2__text,
-.m6v3__h2__text,
-.m6v4__h2__text,
-.m6v5__h2__text,
-.m6v6__h2__text,
-.m3v1__h2__text,
-.m2v4__h2__text,
-.m3v2__h2__text,
-.m2v1__h2__text,
-.m3v3__h2__text,
-.m2v2__h2__text,
-.m3v4__h2__text,
-.m5v1__h2__1,
-.m5v1__h2__2,
-.m5v2__h2__1,
-.m5v3__h2__1,
-.m5v3__h2__2,
-.m2v5__h2__text,
-.m3v5__h2__text,
-.m2v6__h2__text,
-.m3v6__h2__text,
-.m2v7__h2__text,
-.m3v7__h2__text,
-.m2v8__h2__text,
-.m3v8__h2__text,
-.m2v9__h2__text {
-    position: absolute;
-    font-family: "Aqua grotesque";
-    font-size: 5.0rem;
-    font-weight: 400;
-    letter-spacing: -0.5rem;
-    padding: 0.5rem;
-    margin-top: 0;
-    margin-bottom: 0;
-    bottom: -1.8rem;
-}
 
 
 
@@ -152,6 +180,7 @@ a:hover {
     position: sticky;
     top: 0;
     z-index: 99;
+    width: 100%;
 }
 
 .nav__container {
@@ -186,7 +215,7 @@ a:hover {
 }
 
 .nav__element {
-    margin: auto 1rem;
+    margin: auto min(0.5rem, 1rem);
 }
 
 
@@ -199,21 +228,11 @@ a:hover {
     grid-row-start: 1;
     grid-row-end: 14;
     display: grid;
-    grid-template-columns: repeat(8, 4fr);
-    grid-template-rows: repeat(13, 4fr);
+    grid-template-columns: repeat(8, minmax(1fr, 4fr));
+    grid-template-rows: repeat(13, minmax(1fr, 4fr));
 }
 
-h1 {
-    font-family: "Aqua grotesque";
-    font-size: 5.5rem;
-    font-weight: 400;
-    letter-spacing: -0.5rem;
-    padding: 1rem;
-    margin-top: 0;
-    margin-bottom: 0;
-    position: absolute;
-    bottom: -2.4rem;
-}
+
 
 .m6v1__h1__text-background,
 .m6v1__tile__1,
@@ -305,8 +324,8 @@ h1 {
     grid-row-start: 14;
     grid-row-end: 34;
     display: grid;
-    grid-template-columns: repeat(8, 4fr);
-    grid-template-rows: repeat(20, 4rem);
+    grid-template-columns: repeat(8, minmax(1fr, 4fr));
+    grid-template-rows: repeat(20, minmax(1fr, 4fr));
 }
 
 h2 {
@@ -336,7 +355,7 @@ h2 {
 .m6v2__pic>img {
     object-fit: cover;
     width: 100%;
-    max-height: 100%;
+    height: 100%;
 }
 
 .m6v2__h2__text-background,
@@ -420,8 +439,8 @@ h2 {
     grid-row-start: 34;
     grid-row-end: 53;
     display: grid;
-    grid-template-columns: repeat(8, 4fr);
-    grid-template-rows: repeat(19, 4rem);
+    grid-template-columns: repeat(8, minmax(1fr, 4fr));
+    grid-template-rows: repeat(19, minmax(1fr, 4fr));
 }
 
 h2 {
@@ -526,8 +545,8 @@ h2 {
     grid-row-start: 1;
     grid-row-end: 15;
     display: grid;
-    grid-template-columns: repeat(8, 4fr);
-    grid-template-rows: repeat(14, 4rem);
+    grid-template-columns: repeat(8, minmax(1fr, 4fr));
+    grid-template-rows: repeat(14, minmax(1fr, 4fr));
 }
 
 h2 {
@@ -602,8 +621,8 @@ h2 {
     grid-row-start: 15;
     grid-row-end: 35;
     display: grid;
-    grid-template-columns: repeat(8, 4fr);
-    grid-template-rows: repeat(20, 4rem);
+    grid-template-columns: repeat(8, minmax(1fr, 4fr));
+    grid-template-rows: repeat(20, minmax(1fr, 4fr));
 }
 
 h2 {
@@ -633,7 +652,7 @@ h2 {
 .m6v5__pic>img {
     object-fit: cover;
     width: 100%;
-    max-height: 100%;
+    height: 100%;
 }
 
 .m6v5__h2__text-background,
@@ -707,8 +726,8 @@ h2 {
     grid-row-start: 35;
     grid-row-end: 53;
     display: grid;
-    grid-template-columns: repeat(8, 4fr);
-    grid-template-rows: repeat(18, 4rem);
+    grid-template-columns: repeat(8, minmax(1fr, 4fr));
+    grid-template-rows: repeat(18, minmax(1fr, 4fr));
 }
 
 h2 {
