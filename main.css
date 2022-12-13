@@ -199,8 +199,8 @@ a:hover {
     grid-row-start: 1;
     grid-row-end: 14;
     display: grid;
-    grid-template-columns: repeat(8, 4rem);
-    grid-template-rows: repeat(13, 4rem);
+    grid-template-columns: repeat(8, 4fr);
+    grid-template-rows: repeat(13, 4fr);
 }
 
 h1 {
@@ -305,7 +305,7 @@ h1 {
     grid-row-start: 14;
     grid-row-end: 34;
     display: grid;
-    grid-template-columns: repeat(8, 4rem);
+    grid-template-columns: repeat(8, 4fr);
     grid-template-rows: repeat(20, 4rem);
 }
 
@@ -420,7 +420,7 @@ h2 {
     grid-row-start: 34;
     grid-row-end: 53;
     display: grid;
-    grid-template-columns: repeat(8, 4rem);
+    grid-template-columns: repeat(8, 4fr);
     grid-template-rows: repeat(19, 4rem);
 }
 
@@ -526,7 +526,7 @@ h2 {
     grid-row-start: 1;
     grid-row-end: 15;
     display: grid;
-    grid-template-columns: repeat(8, 4rem);
+    grid-template-columns: repeat(8, 4fr);
     grid-template-rows: repeat(14, 4rem);
 }
 
@@ -602,7 +602,7 @@ h2 {
     grid-row-start: 15;
     grid-row-end: 35;
     display: grid;
-    grid-template-columns: repeat(8, 4rem);
+    grid-template-columns: repeat(8, 4fr);
     grid-template-rows: repeat(20, 4rem);
 }
 
@@ -707,7 +707,7 @@ h2 {
     grid-row-start: 35;
     grid-row-end: 53;
     display: grid;
-    grid-template-columns: repeat(8, 4rem);
+    grid-template-columns: repeat(8, 4fr);
     grid-template-rows: repeat(18, 4rem);
 }
 
