@@ -3,10 +3,12 @@
     /* overflow-x: hidden; */
 }
 
-
-.footer__body {
-    display: none;
+:root {
+    --module-template__1: minmax(1rem, 4rem);
 }
+
+
+
 
 @font-face {
     font-family: "Aqua Grotesque";
@@ -114,8 +116,8 @@ h1 {
     grid-row-start: 1;
     grid-row-end: 2;
     display: grid;
-    grid-template-columns: repeat(16, minmax(1rem, 4rem));
-    grid-template-rows: repeat(52, minmax(1rem, 4rem));
+    grid-template-columns: repeat(16, var(--module-template__1));
+    grid-template-rows: repeat(52, var(--module-template__1));
 }
 
 
@@ -228,8 +230,8 @@ h1 {
     grid-row-start: 1;
     grid-row-end: 14;
     display: grid;
-    grid-template-columns: repeat(8, minmax(1fr, 4fr));
-    grid-template-rows: repeat(13, minmax(1fr, 4fr));
+    grid-template-columns: repeat(8, var(--module-template__1));
+    grid-template-rows: repeat(13, var(--module-template__1));
 }
 
 
@@ -244,6 +246,15 @@ h1 {
 .m6v1__tile__7 {
     border: solid 5px #0d0d0d;
 }
+
+.m6v1__h1__text-background,
+.m6v1__tile__1,
+.m6v1__tile__3,
+.m6v1__tile__7 {
+    border-left: solid 10px #0d0d0d;
+}
+
+
 
 .m6v1__h1__text-background {
     position: relative;
@@ -324,8 +335,8 @@ h1 {
     grid-row-start: 14;
     grid-row-end: 34;
     display: grid;
-    grid-template-columns: repeat(8, minmax(1fr, 4fr));
-    grid-template-rows: repeat(20, minmax(1fr, 4fr));
+    grid-template-columns: repeat(8, var(--module-template__1));
+    grid-template-rows: repeat(20, var(--module-template__1));
 }
 
 h2 {
@@ -369,6 +380,15 @@ h2 {
 .m6v2__tile__7 {
     border: solid 5px #0d0d0d;
 }
+
+.m6v2__h2__text-background,
+.m6v2__pic,
+.m6v2__tile__1,
+.m6v2__tile__2,
+.m6v2__tile__5 {
+    border-left: solid 10px #0d0d0d;
+}
+
 
 .m6v2__tile__1,
 .m6v2__tile__2,
@@ -439,8 +459,8 @@ h2 {
     grid-row-start: 34;
     grid-row-end: 53;
     display: grid;
-    grid-template-columns: repeat(8, minmax(1fr, 4fr));
-    grid-template-rows: repeat(19, minmax(1fr, 4fr));
+    grid-template-columns: repeat(8, var(--module-template__1));
+    grid-template-rows: repeat(19, var(--module-template__1));
 }
 
 h2 {
@@ -480,10 +500,18 @@ h2 {
 .m6v3__tile__3,
 .m6v3__tile__4,
 .m6v3__tile__5,
-.m6v3__tile__6,
-.m6v3__tile__7 {
+.m6v3__tile__6 {
     border: solid 5px #0d0d0d;
 }
+
+.m6v3__h2__text-background,
+.m6v3__pic,
+.m6v3__tile__1,
+.m6v3__tile__3,
+.m6v3__tile__5 {
+    border-left: solid 10px #0d0d0d;
+}
+
 
 
 .m6v3__tile__2,
@@ -545,8 +573,8 @@ h2 {
     grid-row-start: 1;
     grid-row-end: 15;
     display: grid;
-    grid-template-columns: repeat(8, minmax(1fr, 4fr));
-    grid-template-rows: repeat(14, minmax(1fr, 4fr));
+    grid-template-columns: repeat(8, var(--module-template__1));
+    grid-template-rows: repeat(14, var(--module-template__1));
 }
 
 h2 {
@@ -587,6 +615,15 @@ h2 {
     border: solid 5px #0d0d0d;
 }
 
+.m6v4__h2__text-background,
+.m6v4__pic,
+.m6v4__tile__2,
+.m6v4__tile__3 {
+    border-right: solid 10px #0d0d0d;
+}
+
+
+
 
 .m6v4__tile__1 {
     border-top: 0px;
@@ -621,8 +658,8 @@ h2 {
     grid-row-start: 15;
     grid-row-end: 35;
     display: grid;
-    grid-template-columns: repeat(8, minmax(1fr, 4fr));
-    grid-template-rows: repeat(20, minmax(1fr, 4fr));
+    grid-template-columns: repeat(8, var(--module-template__1));
+    grid-template-rows: repeat(20, var(--module-template__1));
 }
 
 h2 {
@@ -665,6 +702,15 @@ h2 {
 .m6v5__tile__6 {
     border: solid 5px #0d0d0d;
 }
+
+.m6v5__h2__text-background,
+.m6v5__pic,
+.m6v5__tile__3,
+.m6v5__tile__6 {
+    border-right: solid 10px #0d0d0d;
+}
+
+
 
 
 .m6v5__tile__2,
@@ -726,8 +772,8 @@ h2 {
     grid-row-start: 35;
     grid-row-end: 53;
     display: grid;
-    grid-template-columns: repeat(8, minmax(1fr, 4fr));
-    grid-template-rows: repeat(18, minmax(1fr, 4fr));
+    grid-template-columns: repeat(8, var(--module-template__1));
+    grid-template-rows: repeat(18, var(--module-template__1));
 }
 
 h2 {
@@ -773,6 +819,15 @@ h2 {
 .m6v6__tile__9 {
     border: solid 5px #0d0d0d;
 }
+
+.m6v6__h2__text-background,
+.m6v6__pic,
+.m6v6__tile__5,
+.m6v6__tile__7,
+.m6v6__tile__9 {
+    border-right: solid 10px #0d0d0d;
+}
+
 
 
 .m6v6__tile__2,
@@ -902,7 +957,7 @@ h2 {
 }
 
 .footer__element {
-    margin: auto 1rem;
+    margin: auto min(0.5rem, 1rem);
 }
 
 
