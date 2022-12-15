@@ -13,7 +13,7 @@
 }
 
 
-.contact__column__2 {
+.contact__column__3 {
     grid-column-start: 3;
     grid-column-end: 4;
     grid-row-start: 1;
@@ -21,7 +21,7 @@
 }
 
 
-.contact__column__3 {
+.contact__column__2 {
     grid-column-start: 4;
     grid-column-end: 5;
     grid-row-start: 1;
@@ -33,7 +33,7 @@
     grid-column-end: 2;
     grid-row-start: 1;
     grid-row-end: 2;
-    border-right: solid 5px #0d0d0d;
+    /* border-right: solid 5px #0d0d0d; */
 }
 
 .contact__panel-right {
@@ -41,7 +41,7 @@
     grid-column-end: 6;
     grid-row-start: 1;
     grid-row-end: 2;
-    border-left: solid 5px #0d0d0d;
+    /* border-left: solid 5px #0d0d0d; */
 }
 
 
@@ -61,6 +61,15 @@
 .m7v1__tile__7 {
     border: solid 5px #0d0d0d;
 }
+
+.m7v1__tile__1,
+.m7v1__tile__2,
+.m7v1__tile__3,
+.m7v1__tile__4,
+.m7v1__tile__6 {
+    border-left: solid 10px #0d0d0d;
+}
+
 
 
 .m7v1__tile__2,
@@ -308,6 +317,16 @@ h4 {
 .m7v2__tile__8 {
     border: solid 5px #0d0d0d;
 }
+
+
+.m7v2__tile__2,
+.m7v2__tile__3,
+.m7v2__tile__5,
+.m7v2__tile__7,
+.m7v2__tile__8 {
+    border-right: solid 10px #0d0d0d;
+}
+
 
 
 .m7v2__tile__2,

@@ -36,9 +36,9 @@ a:hover {
 
 h1 {
     font-family: "Aqua grotesque";
-    font-size: clamp(3.75rem, 8.5vw, 5rem);
+    font-size: clamp(2.25rem, 7vw, 3.5rem);
     font-weight: 400;
-    letter-spacing: -0.5rem;
+    /* letter-spacing: -0.5rem; */
     padding: 1rem;
     margin-top: 0;
     margin-bottom: 0;
@@ -914,6 +914,7 @@ h2 {
 
 .footer__container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     padding: 1rem 0;
@@ -948,16 +949,20 @@ h2 {
 
 .footer__element__address {
     text-align: center;
+    justify-content: center;
+    margin: 0.25rem 1rem;
 }
 
 .footer__info {
     display: flex;
+    flex-wrap: wrap;
     margin: auto 2rem;
-    text-align: center;
+    justify-content: center;
+
 }
 
 .footer__element {
-    margin: auto min(0.5rem, 1rem);
+    margin: 0.5rem min(0.5rem, 1rem);
 }
 
 
@@ -965,12 +970,15 @@ h2 {
 
 .footer__soc-media-elements {
     display: flex;
+    flex-wrap: wrap;
+
 }
 
 .footer__soc-media-element {
     width: 3.5rem;
     max-height: 2.5rem;
-    margin: auto 0.25rem;
+    margin: 0.5rem 0.25rem;
+    text-align: center;
 }
 
 .footer__soc-media-logo {
