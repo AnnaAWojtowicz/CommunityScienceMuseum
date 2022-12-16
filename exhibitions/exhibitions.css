@@ -1,8 +1,22 @@
+.exhibitions__column {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    display: grid;
+    grid-template-columns: repeat(16, var(--module-template__1));
+    grid-template-rows: repeat(50, var(--module-template__1));
+}
+
 /* module 1v3 */
 .module1v3__container {
+    grid-column-start: 1;
+    grid-column-end: 17;
+    grid-row-start: 1;
+    grid-row-end: 6;
     display: grid;
-    grid-template-columns: repeat(16, 4rem);
-    grid-template-rows: repeat(5, 4rem);
+    grid-template-columns: repeat(16, var(--module-template__1));
+    grid-template-rows: repeat(5, var(--module-template__1));
 }
 
 .m1v3__h1__text-background,
@@ -10,6 +24,13 @@
     border: solid 5px #0d0d0d;
 }
 
+.m1v3__h1__text-background {
+    border-left: solid 10px #0d0d0d;
+}
+
+.m1v3__pic {
+    border-right: solid 10px #0d0d0d;
+}
 
 .m1v3__h1__text-background {
     position: relative;
@@ -33,19 +54,33 @@
 .m1v3__pic>img {
     object-fit: cover;
     width: 100%;
-    max-height: 100%;
+    height: 100%;
 }
+
 
 /* module 2v1 */
 .module2v1__container {
+    grid-column-start: 1;
+    grid-column-end: 17;
+    grid-row-start: 6;
+    grid-row-end: 15;
     display: grid;
-    grid-template-columns: repeat(16, 4rem);
-    grid-template-rows: repeat(9, 4rem);
+    grid-template-columns: repeat(16, var(--module-template__1));
+    grid-template-rows: repeat(9, var(--module-template__1));
 }
 
 .m2v1__module2__text,
 .m2v1__pic {
     border: solid 5px #0d0d0d;
+}
+
+.m2v1__module2__text {
+    border-left: solid 10px #0d0d0d;
+}
+
+.m2v1__h2__text-background,
+.m2v1__pic {
+    border-right: solid 10px #0d0d0d;
 }
 
 
@@ -55,17 +90,17 @@
     grid-row-start: 1;
     grid-row-end: 10;
     font-family: 'Roboto', sans-serif;
-    font-size: 1.5rem;
-    padding: 2rem 4rem;
+    font-size: clamp(1.25rem, 3vw, 1.5rem);
+    padding: min(1rem, 2rem) min(2rem, 4rem);
 }
 
 
-h2 {
+/* h2 {
     grid-column-start: 9;
     grid-column-end: 17;
     grid-row-start: 1;
     grid-row-end: 4;
-}
+} */
 
 
 .m2v1__h2__text-background {
@@ -97,9 +132,13 @@ h2 {
 
 /* module 3v3 */
 .module3v3__container {
+    grid-column-start: 1;
+    grid-column-end: 17;
+    grid-row-start: 15;
+    grid-row-end: 25;
     display: grid;
-    grid-template-columns: repeat(16, 4rem);
-    grid-template-rows: repeat(10, 4rem);
+    grid-template-columns: repeat(16, var(--module-template__1));
+    grid-template-rows: repeat(10, var(--module-template__1));
 }
 
 .m3v3__module3__text,
@@ -108,23 +147,34 @@ h2 {
     border: solid 5px #0d0d0d;
 }
 
+.m3v3__h2__text-background,
+.m3v3__pic {
+    border-left: solid 10px #0d0d0d;
+}
+
+.m3v3__module3__text {
+    border-right: solid 10px #0d0d0d;
+}
+
+
+
 .m3v3__module3__text {
     grid-column-start: 9;
     grid-column-end: 17;
     grid-row-start: 1;
     grid-row-end: 11;
     font-family: 'Roboto', sans-serif;
-    font-size: 1.5rem;
-    padding: 2rem 4rem;
+    font-size: clamp(1.25rem, 3vw, 1.5rem);
+    padding: min(1rem, 2rem) min(2rem, 4rem);
 }
 
 
-h2 {
+/* h2 {
     grid-column-start: 1;
     grid-column-end: 9;
     grid-row-start: 1;
     grid-row-end: 4;
-}
+} */
 
 
 .m3v3__h2__text-background {
@@ -155,9 +205,13 @@ h2 {
 
 /* module 2v2 */
 .module2v2__container {
+    grid-column-start: 1;
+    grid-column-end: 17;
+    grid-row-start: 25;
+    grid-row-end: 38;
     display: grid;
-    grid-template-columns: repeat(16, 4rem);
-    grid-template-rows: repeat(12, 4rem);
+    grid-template-columns: repeat(16, var(--module-template__1));
+    grid-template-rows: repeat(13, var(--module-template__1));
 }
 
 .m2v2__module2__text,
@@ -166,24 +220,34 @@ h2 {
     border: solid 5px #0d0d0d;
 }
 
+.m2v2__module2__text {
+    border-left: solid 10px #0d0d0d;
+}
+
+.m2v2__h2__text-background,
+.m2v2__pic {
+    border-right: solid 10px #0d0d0d;
+}
+
+
 
 .m2v2__module2__text {
     grid-column-start: 1;
     grid-column-end: 9;
     grid-row-start: 1;
-    grid-row-end: 13;
+    grid-row-end: 14;
     font-family: 'Roboto', sans-serif;
-    font-size: 1.5rem;
-    padding: 2rem 4rem;
+    font-size: clamp(1.25rem, 3vw, 1.5rem);
+    padding: min(1rem, 2rem) min(2rem, 4rem);
 }
 
 
-h2 {
+/* h2 {
     grid-column-start: 9;
     grid-column-end: 17;
     grid-row-start: 1;
     grid-row-end: 5;
-}
+} */
 
 
 .m2v2__h2__text-background {
@@ -199,7 +263,7 @@ h2 {
     grid-column-start: 9;
     grid-column-end: 17;
     grid-row-start: 5;
-    grid-row-end: 13;
+    grid-row-end: 14;
 
 }
 
@@ -214,9 +278,13 @@ h2 {
 
 /* module 3v4 */
 .module3v4__container {
+    grid-column-start: 1;
+    grid-column-end: 17;
+    grid-row-start: 38;
+    grid-row-end: 47;
     display: grid;
-    grid-template-columns: repeat(16, 4rem);
-    grid-template-rows: repeat(9, 4rem);
+    grid-template-columns: repeat(16, var(--module-template__1));
+    grid-template-rows: repeat(9, var(--module-template__1));
 }
 
 .m3v4__module3__text,
@@ -225,6 +293,17 @@ h2 {
 .m3v4__pic {
     border: solid 5px #0d0d0d;
 }
+
+.m3v4__h2__text-background,
+.m3v4__pic {
+    border-left: solid 10px #0d0d0d;
+}
+
+.m3v4__module3__text {
+    border-right: solid 10px #0d0d0d;
+}
+
+
 
 .m3v4__h2__text-background,
 .m3v4__tile__1 {
@@ -238,17 +317,17 @@ h2 {
     grid-row-start: 1;
     grid-row-end: 10;
     font-family: 'Roboto', sans-serif;
-    font-size: 1.5rem;
-    padding: 2rem 4rem;
+    font-size: clamp(1.25rem, 3vw, 1.5rem);
+    padding: min(1rem, 2rem) min(2rem, 4rem);
 }
 
 
-h2 {
+/* h2 {
     grid-column-start: 1;
     grid-column-end: 7;
     grid-row-start: 1;
     grid-row-end: 4;
-}
+} */
 
 
 .m3v4__h2__text-background {
@@ -284,9 +363,13 @@ h2 {
 
 /* module 4 */
 .module4__container {
+    grid-column-start: 1;
+    grid-column-end: 17;
+    grid-row-start: 47;
+    grid-row-end: 51;
     display: grid;
-    grid-template-columns: repeat(16, 4rem);
-    grid-template-rows: repeat(4, 4rem);
+    grid-template-columns: repeat(16, var(--module-template__1));
+    grid-template-rows: repeat(4, var(--module-template__1));
 }
 
 .m4__tile__1,
@@ -296,6 +379,15 @@ h2 {
 .m4__tile__5,
 .m4__tile__6 {
     border: solid 5px #0d0d0d;
+}
+
+.m4__tile__1 {
+    border-left: solid 10px #0d0d0d;
+}
+
+.m4__tile__5,
+.m4__tile__6 {
+    border-right: solid 10px #0d0d0d;
 }
 
 
