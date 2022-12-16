@@ -124,7 +124,7 @@ h1 {
 /* other sites - shared */
 .main {
     display: grid;
-    grid-template-columns: 1fr 64rem 1fr;
+    grid-template-columns: minmax(0, 1fr) minmax(32rem, 64rem) minmax(0, 1fr);
     grid-template-rows: auto;
 }
 
@@ -133,6 +133,9 @@ h1 {
     grid-column-end: 3;
     grid-row-start: 1;
     grid-row-end: 2;
+    display: grid;
+    grid-template-columns: repeat(16, var(--module-template__1));
+    grid-template-rows: repeat(42, var(--module-template__1));
 }
 
 .panel-left {
