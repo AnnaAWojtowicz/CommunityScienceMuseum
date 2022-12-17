@@ -48,7 +48,6 @@ h1 {
     margin-top: 0;
     margin-bottom: 0;
     position: absolute;
-    bottom: -2rem;
 }
 
 
@@ -80,13 +79,13 @@ h1 {
 .m2v9__h2__text {
     position: absolute;
     font-family: "Aqua grotesque";
-    font-size: clamp(1rem, 8vw, 3rem);
+    font-size: clamp(2.5rem, 8vw, 4rem);
     font-weight: 400;
     letter-spacing: -0.25rem;
     padding: 0.5rem;
     margin-top: 0;
     margin-bottom: 0;
-    bottom: -1.3rem;
+    bottom: -25px;
 }
 
 
@@ -167,14 +166,14 @@ h1 {
 .m1v4__h1__text,
 .m6v1__h1__text {
     font-family: "Aqua grotesque";
-    font-size: clamp(2.25rem, 7vw, 4.5rem);
+    font-size: clamp(3.5rem, 11vw, 5rem);
     font-weight: 400;
     /* letter-spacing: -0.5rem; */
     padding: 1rem;
     margin-top: 0;
     margin-bottom: 0;
     position: absolute;
-    bottom: -2.4rem;
+    bottom: -37px;
 }
 
 
