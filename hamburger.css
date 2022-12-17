@@ -1,0 +1,53 @@
+@media (max-width: 640px) {
+
+    .hamburger {
+        display: block;
+        position: absolute;
+        top: 0.35rem;
+        right: 16px;
+        width: 2.5rem;
+        height: 2.5rem;
+
+    }
+
+    .hamburger-checkbox {
+        display: block;
+        position: absolute;
+        margin: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+        z-index: 1;
+        cursor: pointer;
+    }
+
+    .hamburger>img {
+        width: 100%;
+    }
+
+    .hamburger>.hamburger-nav__elements {
+        display: none;
+        background-color: white;
+        min-width: 10rem;
+        width: 30vw;
+        height: 50vh;
+        position: absolute;
+        top: 3.3rem;
+        right: 0;
+        text-align: right;
+        transform: translate(150%);
+        transition: transform 0.3s ease-in-out;
+        border: solid 3px #0d0d0d;
+
+    }
+
+    .hamburger-nav__element {
+        margin: 1rem 1rem;
+    }
+
+
+    .hamburger input[type="checkbox"]:checked~.hamburger-nav__elements {
+        transform: translateX(10px);
+        display: inline-block;
+    }
+}

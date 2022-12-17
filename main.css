@@ -9,11 +9,16 @@
 
 
 
-
 @font-face {
     font-family: "Aqua Grotesque";
     src: url(../font/aqua.ttf);
 }
+
+/* Hide hamburger menu and children */
+.hamburger {
+    display: none;
+}
+
 
 body {
     background-color: #EBF2F2;
