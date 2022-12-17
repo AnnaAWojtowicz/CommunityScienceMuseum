@@ -1,13 +1,37 @@
+.get-involved__column {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    display: grid;
+    grid-template-columns: repeat(16, var(--module-template__1));
+    grid-template-rows: repeat(38, var(--module-template__1));
+}
+
+
 /* module 1v5 */
 .module1v5__container {
+    grid-column-start: 1;
+    grid-column-end: 17;
+    grid-row-start: 1;
+    grid-row-end: 6;
     display: grid;
-    grid-template-columns: repeat(16, 4rem);
-    grid-template-rows: repeat(5, 4rem);
+    grid-template-columns: repeat(16, var(--module-template__1));
+    grid-template-rows: repeat(5, var(--module-template__1));
 }
 
 .m1v5__h1__text-background,
 .m1v5__pic {
     border: solid 5px #0d0d0d;
+}
+
+
+.m1v5__h1__text-background {
+    border-left: solid 10px #0d0d0d;
+}
+
+.m1v5__pic {
+    border-right: solid 10px #0d0d0d;
 }
 
 
@@ -33,15 +57,19 @@
 .m1v5__pic>img {
     object-fit: cover;
     width: 100%;
-    max-height: 100%;
+    height: 100%;
 }
 
 
 /* module 2v8 */
 .module2v8__container {
+    grid-column-start: 1;
+    grid-column-end: 17;
+    grid-row-start: 6;
+    grid-row-end: 16;
     display: grid;
-    grid-template-columns: repeat(16, 4rem);
-    grid-template-rows: repeat(9, 4rem);
+    grid-template-columns: repeat(16, var(--module-template__1));
+    grid-template-rows: repeat(10, var(--module-template__1));
 }
 
 .m2v8__module2__text,
@@ -50,6 +78,16 @@
 .m2v8__pic {
     border: solid 5px #0d0d0d;
 }
+
+.m2v8__module2__text {
+    border-left: solid 10px #0d0d0d;
+}
+
+.m2v8__tile__1,
+.m2v8__pic {
+    border-right: solid 10px #0d0d0d;
+}
+
 
 .m2v8__h2__text-background,
 .m2v8__tile__1 {
@@ -60,19 +98,19 @@
     grid-column-start: 1;
     grid-column-end: 9;
     grid-row-start: 1;
-    grid-row-end: 10;
+    grid-row-end: 11;
     font-family: 'Roboto', sans-serif;
-    font-size: 1.5rem;
-    padding: 2rem 4rem;
+    font-size: clamp(1.25rem, 3vw, 1.5rem);
+    padding: min(1rem, 2rem) min(2rem, 4rem);
 }
 
 
-h2 {
+/* h2 {
     grid-column-start: 9;
     grid-column-end: 15;
     grid-row-start: 1;
     grid-row-end: 3;
-}
+} */
 
 
 .m2v8__h2__text-background {
@@ -94,7 +132,7 @@ h2 {
     grid-column-start: 9;
     grid-column-end: 17;
     grid-row-start: 3;
-    grid-row-end: 10;
+    grid-row-end: 11;
 
 }
 
@@ -107,8 +145,8 @@ h2 {
 .m2v8__contact {
     grid-column-start: 8;
     grid-column-end: 9;
-    grid-row-start: 8;
-    grid-row-end: 9;
+    grid-row-start: 9;
+    grid-row-end: 10;
     background-color: #0d0d0d;
     position: relative;
 
@@ -117,10 +155,10 @@ h2 {
 .m2v8__mail {
     grid-column-start: 8;
     grid-column-end: 9;
-    grid-row-start: 8;
-    grid-row-end: 9;
+    grid-row-start: 9;
+    grid-row-end: 10;
     color: #EBF2F2;
-    font-size: 3rem;
+    font-size: clamp(2.5rem, 3vw, 3rem);
     position: absolute;
     top: 50%;
     left: 50%;
@@ -132,9 +170,13 @@ h2 {
 
 /* module 3v8 */
 .module3v8__container {
+    grid-column-start: 1;
+    grid-column-end: 17;
+    grid-row-start: 16;
+    grid-row-end: 27;
     display: grid;
-    grid-template-columns: repeat(16, 4rem);
-    grid-template-rows: repeat(10, 4rem);
+    grid-template-columns: repeat(16, var(--module-template__1));
+    grid-template-rows: repeat(11, var(--module-template__1));
 }
 
 .m3v8__module3__text,
@@ -143,24 +185,34 @@ h2 {
     border: solid 5px #0d0d0d;
 }
 
+.m3v8__h2__text-background,
+.m3v8__pic {
+    border-left: solid 10px #0d0d0d;
+}
+
+.m3v8__module3__text {
+    border-right: solid 10px #0d0d0d;
+}
+
+
 
 .m3v8__module3__text {
     grid-column-start: 9;
     grid-column-end: 17;
     grid-row-start: 1;
-    grid-row-end: 11;
+    grid-row-end: 12;
     font-family: 'Roboto', sans-serif;
-    font-size: 1.5rem;
-    padding: 2rem 4rem;
+    font-size: clamp(1.25rem, 3vw, 1.5rem);
+    padding: min(1rem, 2rem) min(2rem, 4rem);
 }
 
 
-h2 {
+/* h2 {
     grid-column-start: 1;
     grid-column-end: 9;
     grid-row-start: 1;
     grid-row-end: 3;
-}
+} */
 
 
 .m3v8__h2__text-background {
@@ -177,7 +229,7 @@ h2 {
     grid-column-start: 1;
     grid-column-end: 9;
     grid-row-start: 3;
-    grid-row-end: 11;
+    grid-row-end: 12;
 
 }
 
@@ -190,8 +242,8 @@ h2 {
 .m3v8__contact {
     grid-column-start: 16;
     grid-column-end: 17;
-    grid-row-start: 9;
-    grid-row-end: 10;
+    grid-row-start: 10;
+    grid-row-end: 11;
     background-color: #0d0d0d;
     position: relative;
 
@@ -200,10 +252,10 @@ h2 {
 .m3v8__mail {
     grid-column-start: 16;
     grid-column-end: 17;
-    grid-row-start: 9;
-    grid-row-end: 10;
+    grid-row-start: 10;
+    grid-row-end: 11;
     color: #EBF2F2;
-    font-size: 3rem;
+    font-size: clamp(2.5rem, 3vw, 3rem);
     position: absolute;
     top: 50%;
     left: 50%;
@@ -216,15 +268,28 @@ h2 {
 
 /* module 2v9 */
 .module2v9__container {
+    grid-column-start: 1;
+    grid-column-end: 17;
+    grid-row-start: 27;
+    grid-row-end: 35;
     display: grid;
-    grid-template-columns: repeat(16, 4rem);
-    grid-template-rows: repeat(8, 4rem);
+    grid-template-columns: repeat(16, var(--module-template__1));
+    grid-template-rows: repeat(8, var(--module-template__1));
 }
 
 .m2v9__module2__text,
 .m2v9__h2__text-background,
 .m2v9__pic {
     border: solid 5px #0d0d0d;
+}
+
+.m2v9__module2__text {
+    border-left: solid 10px #0d0d0d;
+}
+
+.m2v9__h2__text-background,
+.m2v9__pic {
+    border-right: solid 10px #0d0d0d;
 }
 
 
@@ -235,17 +300,17 @@ h2 {
     grid-row-start: 1;
     grid-row-end: 9;
     font-family: 'Roboto', sans-serif;
-    font-size: 1.5rem;
-    padding: 2rem 4rem;
+    font-size: clamp(1.25rem, 3vw, 1.5rem);
+    padding: min(1rem, 2rem) min(2rem, 4rem);
 }
 
 
-h2 {
+/* h2 {
     grid-column-start: 9;
     grid-column-end: 17;
     grid-row-start: 1;
     grid-row-end: 3;
-}
+} */
 
 
 .m2v9__h2__text-background {
@@ -288,7 +353,7 @@ h2 {
     grid-row-start: 7;
     grid-row-end: 8;
     color: #EBF2F2;
-    font-size: 3rem;
+    font-size: clamp(2.5rem, 3vw, 3rem);
     position: absolute;
     top: 50%;
     left: 50%;
@@ -300,9 +365,13 @@ h2 {
 
 /* module 4 */
 .module4__container {
+    grid-column-start: 1;
+    grid-column-end: 17;
+    grid-row-start: 35;
+    grid-row-end: 39;
     display: grid;
-    grid-template-columns: repeat(16, 4rem);
-    grid-template-rows: repeat(4, 4rem);
+    grid-template-columns: repeat(16, var(--module-template__1));
+    grid-template-rows: repeat(4, var(--module-template__1));
 }
 
 .m4__tile__1,
@@ -312,6 +381,15 @@ h2 {
 .m4__tile__5,
 .m4__tile__6 {
     border: solid 5px #0d0d0d;
+}
+
+.m4__tile__1 {
+    border-left: solid 10px #0d0d0d;
+}
+
+.m4__tile__5,
+.m4__tile__6 {
+    border-right: solid 10px #0d0d0d;
 }
 
 
