@@ -13,17 +13,13 @@
 
     body {
         padding: 0;
-
     }
-
 
     .main {
         display: block;
         /* grid-template-columns: 100%;
         grid-template-rows: auto; */
-
     }
-
 
     .explore__column {
         display: block;
@@ -33,6 +29,7 @@
         grid-template-rows: repeat(37, 4fr); */
         width: 100%;
     }
+
 
 
     /* module 1v1 */
@@ -53,6 +50,7 @@
     }
 
     .m1v1__h1__text-background,
+    .m1v1__pic,
     .m1v1__module1__text {
         border-left: solid 6px #0d0d0d;
         border-right: solid 6px #0d0d0d;
@@ -96,18 +94,26 @@
         grid-template-rows: repeat(25, 3rem);
     }
 
-    .m3v1__h1__text-background,
+    .m3v1__h2__text-background,
+    .m3v1__tile__1,
     .m3v1__pic__1,
     .m3v1__pic__2,
     .m3v1__module3__text {
         border: solid 3px #0d0d0d;
     }
 
-    .m3v1__h1__text-background,
+    .m3v1__h2__text-background,
+    .m3v1__pic__1,
     .m3v1__module3__text {
         border-left: solid 6px #0d0d0d;
+    }
+
+    .m3v1__tile__1,
+    .m3v1__pic__2,
+    .m3v1__module3__text {
         border-right: solid 6px #0d0d0d;
     }
+
 
     .m3v1__h2__text-background {
         grid-column-start: 1;
@@ -175,16 +181,19 @@
     .m2v4__h2__text-background,
     .m2v4__tile__1,
     .m2v4__pic {
-        border: solid 5px #0d0d0d;
+        border: solid 3px #0d0d0d;
     }
 
+    .m2v4__h2__text-background,
+    .m2v4__pic,
     .m2v4__module2__text {
-        border-left: solid 10px #0d0d0d;
+        border-left: solid 6px #0d0d0d;
     }
 
     .m2v4__tile__1,
-    .m2v4__pic {
-        border-right: solid 10px #0d0d0d;
+    .m2v4__pic,
+    .m2v4__module2__text {
+        border-right: solid 6px #0d0d0d;
     }
 
     .m2v4__module2__text {
@@ -251,17 +260,16 @@
     .m3v2__module3__text,
     .m3v2__h2__text-background,
     .m3v2__pic {
-        border: solid 5px #0d0d0d;
+        border: solid 3px #0d0d0d;
     }
 
     .m3v2__h2__text-background,
-    .m3v2__pic {
-        border-left: solid 10px #0d0d0d;
+    .m3v2__pic,
+    .m3v2__module3__text {
+        border-left: solid 6px #0d0d0d;
+        border-right: solid 6px #0d0d0d;
     }
 
-    .m3v2__module3__text {
-        border-right: solid 10px #0d0d0d;
-    }
 
     .m3v2__module3__text {
         grid-column-start: 1;
