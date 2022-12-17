@@ -156,12 +156,15 @@ h1 {
 
 .m7v4__h1__text,
 .m1v1__h1__text,
+.m1v3__h1__text,
+.m1v5__h1__text,
 .m1v2__h1__text,
-.m1v4__h1__text {
+.m1v4__h1__text,
+.m6v1__h1__text {
     font-family: "Aqua grotesque";
-    font-size: 5.5rem;
+    font-size: clamp(2.75rem, 7vw, 5.5rem);
     font-weight: 400;
-    letter-spacing: -0.5rem;
+    /* letter-spacing: -0.5rem; */
     padding: 1rem;
     margin-top: 0;
     margin-bottom: 0;

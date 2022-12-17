@@ -1,6 +1,6 @@
 .contact__main {
     display: grid;
-    grid-template-columns: 1fr 12rem 40rem 12rem 1fr;
+    grid-template-columns: minmax(0, 1fr) minmax(6rem, 12rem) minmax(20rem, 40rem) minmax(6rem, 12rem) minmax(0, 1fr);
     grid-template-rows: auto;
     ;
 }
@@ -48,8 +48,8 @@
 /* module 7v1 */
 .module7v1__container {
     display: grid;
-    grid-template-columns: repeat(3, 4rem);
-    grid-template-rows: repeat(14, 4rem);
+    grid-template-columns: repeat(3, var(--module-template__1));
+    grid-template-rows: repeat(14, var(--module-template__1));
 }
 
 .m7v1__tile__1,
@@ -135,8 +135,8 @@
 /* module 7v4 */
 .module7v4__container {
     display: grid;
-    grid-template-columns: repeat(10, 4rem);
-    grid-template-rows: repeat(14, 4rem);
+    grid-template-columns: repeat(10, var(--module-template__1));
+    grid-template-rows: repeat(14, var(--module-template__1));
 }
 
 .m7v4__h1__text-background,
@@ -244,7 +244,7 @@ h4 {
     grid-row-start: 10;
     grid-row-end: 11;
     color: #EBF2F2;
-    font-size: 3rem;
+    font-size: clamp(2.5rem, 3vw, 3rem);
     position: absolute;
     top: 50%;
     left: 50%;
@@ -256,8 +256,8 @@ h4 {
 /* module 7v2 */
 .module7v2__container {
     display: grid;
-    grid-template-columns: repeat(3, 4rem);
-    grid-template-rows: repeat(14, 4rem);
+    grid-template-columns: repeat(3, var(--module-template__1));
+    grid-template-rows: repeat(14, var(--module-template__1));
 }
 
 .m7v2__tile__1,
