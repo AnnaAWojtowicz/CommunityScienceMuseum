@@ -162,7 +162,7 @@ h1 {
 .m1v4__h1__text,
 .m6v1__h1__text {
     font-family: "Aqua grotesque";
-    font-size: clamp(2.75rem, 7vw, 5.5rem);
+    font-size: clamp(2.75rem, 7vw, 4.5rem);
     font-weight: 400;
     /* letter-spacing: -0.5rem; */
     padding: 1rem;
