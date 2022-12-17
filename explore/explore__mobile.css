@@ -7,12 +7,20 @@
 
 @media (max-width: 640px) {
 
+    .nav__body {
+        border-bottom: solid 6px #0d0d0d;
+    }
+
     .nav__elements {
         display: none;
     }
 
     body {
         padding: 0;
+    }
+
+    .footer__body {
+        border-top: solid 6px #0d0d0d;
     }
 
     .main {
