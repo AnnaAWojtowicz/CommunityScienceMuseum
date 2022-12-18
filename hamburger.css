@@ -10,6 +10,8 @@
 
     }
 
+
+
     .hamburger-checkbox {
         display: block;
         position: absolute;
@@ -19,6 +21,10 @@
         opacity: 0;
         z-index: 1;
         cursor: pointer;
+    }
+
+    .hamburger>label {
+        display: none;
     }
 
     .hamburger>img {
