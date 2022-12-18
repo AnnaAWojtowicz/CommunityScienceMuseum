@@ -3,16 +3,10 @@
 
     .main {
         display: block;
-        /* grid-template-columns: 100%;
-        grid-template-rows: auto; */
     }
 
     .explore__column {
         display: block;
-        /*grid-column-start: 1;
-        grid-column-end: 2;
-        grid-template-columns: repeat(8, 4fr);
-        grid-template-rows: repeat(37, 4fr); */
         width: 100%;
     }
 
@@ -20,10 +14,6 @@
 
     /* module 1v1 */
     .module1v1__container {
-        /* grid-column-start: 1;
-        grid-column-end: 9;
-        grid-row-start: 1;
-        grid-row-end: 19; */
         display: grid;
         grid-template-columns: repeat(8, 1fr);
         grid-template-rows: repeat(26, 3rem);
@@ -71,10 +61,6 @@
 
     /* module 3v1 */
     .module3v1__container {
-        /* grid-column-start: 1;
-        grid-column-end: 9;
-        grid-row-start: 19;
-        grid-row-end: 30; */
         display: grid;
         grid-template-columns: repeat(8, 1fr);
         grid-template-rows: repeat(25, 3rem);
@@ -154,10 +140,6 @@
 
     /* module 2v4 */
     .module2v4__container {
-        /* grid-column-start: 1;
-        grid-column-end: 9;
-        grid-row-start: 27;
-        grid-row-end: 37; */
         display: grid;
         grid-template-columns: repeat(8, 1fr);
         grid-template-rows: repeat(17, 3rem);
@@ -234,10 +216,6 @@
 
     /* module 3v2 */
     .module3v2__container {
-        /* grid-column-start: 1;
-        grid-column-end: 9;
-        grid-row-start: 37;
-        grid-row-end: 43; */
         display: grid;
         grid-template-columns: repeat(8, 1fr);
         grid-template-rows: repeat(16, 3rem);
@@ -300,18 +278,10 @@
 
     }
 
-
-
-
-
     .module4__container,
     .m1v1__tile__1,
     .m1v1__tile__2 {
         display: none;
     }
-
-
-
-
 
 }

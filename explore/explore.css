@@ -140,15 +140,6 @@
     padding: min(1rem, 2rem) min(2rem, 4rem);
 }
 
-
-/* h2 {
-    grid-column-start: 1;
-    grid-column-end: 7;
-    grid-row-start: 1;
-    grid-row-end: 4;
-} */
-
-
 .m3v1__h2__text-background {
     position: relative;
     grid-column-start: 1;
@@ -265,14 +256,6 @@
 }
 
 
-/* h2 {
-    grid-column-start: 9;
-    grid-column-end: 16;
-    grid-row-start: 1;
-    grid-row-end: 4;
-} */
-
-
 .m2v4__h2__text-background {
     position: relative;
     grid-column-start: 9;
@@ -362,14 +345,6 @@
     font-size: clamp(1.25rem, 3vw, 1.5rem);
     padding: min(1rem, 2rem) min(2rem, 4rem);
 }
-
-
-/* h2 {
-    grid-column-start: 1;
-    grid-column-end: 9;
-    grid-row-start: 1;
-    grid-row-end: 4;
-} */
 
 
 .m3v2__h2__text-background {

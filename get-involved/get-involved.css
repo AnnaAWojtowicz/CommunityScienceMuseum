@@ -105,14 +105,6 @@
 }
 
 
-/* h2 {
-    grid-column-start: 9;
-    grid-column-end: 15;
-    grid-row-start: 1;
-    grid-row-end: 3;
-} */
-
-
 .m2v8__h2__text-background {
     position: relative;
     grid-column-start: 9;
@@ -207,14 +199,6 @@
 }
 
 
-/* h2 {
-    grid-column-start: 1;
-    grid-column-end: 9;
-    grid-row-start: 1;
-    grid-row-end: 3;
-} */
-
-
 .m3v8__h2__text-background {
     position: relative;
     background-color: #D93611;
@@ -303,14 +287,6 @@
     font-size: clamp(1.25rem, 3vw, 1.5rem);
     padding: min(1rem, 2rem) min(2rem, 4rem);
 }
-
-
-/* h2 {
-    grid-column-start: 9;
-    grid-column-end: 17;
-    grid-row-start: 1;
-    grid-row-end: 3;
-} */
 
 
 .m2v9__h2__text-background {

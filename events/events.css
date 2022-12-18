@@ -123,24 +123,6 @@
 }
 
 
-
-
-/* .m5v1__h2__1 {
-    grid-column-start: 1;
-    grid-column-end: 5;
-    grid-row-start: 1;
-    grid-row-end: 5;
-}
-
-.m5v1__h2__2 {
-    grid-column-start: 5;
-    grid-column-end: 17;
-    grid-row-start: 1;
-    grid-row-end: 5;
-} */
-
-
-
 .m5v1__h2__text-background__1 {
     position: relative;
     grid-column-start: 1;
@@ -240,13 +222,6 @@
     background-color: #D93611;
 }
 
-
-/* .m5v2__h2__1 {
-    grid-column-start: 1;
-    grid-column-end: 4;
-    grid-row-start: 1;
-    grid-row-end: 15;
-} */
 
 
 .m5v2__h2__text-background__1 {
