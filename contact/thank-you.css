@@ -136,7 +136,7 @@
 .module7v4__container {
     display: grid;
     grid-template-columns: repeat(10, var(--module-template__1));
-    grid-template-rows: repeat(14, var(--module-template__1));
+    grid-template-rows: repeat(15, var(--module-template__1));
 }
 
 .m7v4__h1__text-background,
@@ -156,15 +156,15 @@
     grid-column-start: 1;
     grid-column-end: 11;
     grid-row-start: 1;
-    grid-row-end: 3;
+    grid-row-end: 4;
     position: relative
 }
 
 h4 {
-    grid-column-start: 1;
+    /* grid-column-start: 1;
     grid-column-end: 11;
-    grid-row-start: 12;
-    grid-row-end: 14;
+    grid-row-start: 5;
+    grid-row-end: 9; */
     font-family: "Aqua grotesque";
     font-size: 3rem;
     font-weight: 400;
@@ -176,24 +176,12 @@ h4 {
 
 .m7v4__h4__text-background {
     position: relative;
-    background-color: #F2B807;
     grid-column-start: 1;
     grid-column-end: 11;
-    grid-row-start: 12;
-    grid-row-end: 14;
+    grid-row-start: 5;
+    grid-row-end: 13;
 }
 
-.m7v4__tile__1,
-.m7v4__tile__2 {
-    grid-row-start: 3;
-    grid-row-end: 4;
-}
-
-.m7v4__tile__3,
-.m7v4__tile__4 {
-    grid-row-start: 14;
-    grid-row-end: 15;
-}
 
 .m7v4__tile__3,
 .m7v4__tile__4 {
@@ -203,36 +191,45 @@ h4 {
 .m7v4__tile__1 {
     grid-column-start: 1;
     grid-column-end: 7;
+    grid-row-start: 4;
+    grid-row-end: 5;
 }
 
 .m7v4__tile__2 {
     grid-column-start: 7;
     grid-column-end: 11;
+    grid-row-start: 4;
+    grid-row-end: 5;
 }
 
 .m7v4__tile__3 {
     grid-column-start: 1;
     grid-column-end: 9;
+    grid-row-start: 15;
+    grid-row-end: 16;
 }
 
 .m7v4__tile__4 {
     grid-column-start: 9;
     grid-column-end: 11;
+    grid-row-start: 15;
+    grid-row-end: 16;
 }
 
 .m7v4__tile__5 {
+    background-color: #F2B807;
     grid-column-start: 1;
     grid-column-end: 11;
-    grid-row-start: 4;
-    grid-row-end: 12;
+    grid-row-start: 13;
+    grid-row-end: 15;
 }
 
 
 .m7v4__forward {
     grid-column-start: 10;
     grid-column-end: 11;
-    grid-row-start: 10;
-    grid-row-end: 11;
+    grid-row-start: 11;
+    grid-row-end: 12;
     background-color: #0d0d0d;
     position: relative;
 
@@ -241,8 +238,8 @@ h4 {
 .m7v4__arrow-forward {
     grid-column-start: 10;
     grid-column-end: 11;
-    grid-row-start: 10;
-    grid-row-end: 11;
+    grid-row-start: 12;
+    grid-row-end: 12;
     color: #EBF2F2;
     font-size: clamp(2.5rem, 3vw, 3rem);
     position: absolute;

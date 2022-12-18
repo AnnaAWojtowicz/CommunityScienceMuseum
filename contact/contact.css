@@ -142,7 +142,7 @@
 }
 
 .m7v3__h1__text-background,
-.m7v3__h4__text-background,
+.m7v3__tile__5,
 .m7v3__form,
 .m7v3__tile__1,
 .m7v3__tile__2,
@@ -175,7 +175,7 @@ h4 {
 }
 
 
-.m7v3__h4__text-background {
+.m7v3__tile__5 {
     background-color: #F2B807;
     grid-column-start: 1;
     grid-column-end: 11;

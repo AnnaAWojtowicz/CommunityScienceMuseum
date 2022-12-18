@@ -1,0 +1,120 @@
+@media (max-width: 640px) {
+
+    .contact__main {
+        display: block;
+    }
+
+    .contact__column__1,
+    .contact__column__3 {
+        display: none
+    }
+
+    .contact__column__2 {
+        display: block;
+        width: 100%;
+    }
+
+
+
+    /* module 7v4 */
+    .module7v4__container {
+        display: grid;
+        grid-template-columns: repeat(8, 1fr);
+        grid-template-rows: repeat(15, 3rem);
+    }
+
+    .m7v4__h1__text-background,
+    .m7v4__h4__text-background,
+    .m7v4__tile__1,
+    .m7v4__tile__2,
+    .m7v4__tile__3,
+    .m7v4__tile__4,
+    .m7v4__tile__5 {
+        border: solid 3px #0d0d0d;
+    }
+
+    .m7v4__h1__text-background,
+    .m7v4__h4__text-background,
+    .m7v4__tile__1,
+    .m7v4__tile__3,
+    .m7v4__tile__5 {
+        border-left: solid 6px #0d0d0d;
+    }
+
+    .m7v4__h1__text-background,
+    .m7v4__h4__text-background,
+    .m7v4__tile__2,
+    .m7v4__tile__4,
+    .m7v4__tile__5 {
+        border-right: solid 6px #0d0d0d;
+    }
+
+
+    .m7v4__h1__text-background {
+        grid-column-start: 1;
+        grid-column-end: 9;
+        grid-row-start: 1;
+        grid-row-end: 3;
+    }
+
+    .m7v4__tile__1 {
+        grid-column-start: 1;
+        grid-column-end: 7;
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+
+
+    .m7v4__tile__2 {
+        grid-column-start: 7;
+        grid-column-end: 9;
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+
+    .m7v4__h4__text-background {
+        grid-column-start: 1;
+        grid-column-end: 9;
+        grid-row-start: 4;
+        grid-row-end: 13;
+    }
+
+    .m7v4__tile__5 {
+        grid-column-start: 1;
+        grid-column-end: 9;
+        grid-row-start: 13;
+        grid-row-end: 15;
+    }
+
+    .m7v4__tile__3 {
+        grid-column-start: 1;
+        grid-column-end: 6;
+        grid-row-start: 15;
+        grid-row-end: 16;
+    }
+
+    .m7v4__tile__4 {
+        grid-column-start: 6;
+        grid-column-end: 9;
+        grid-row-start: 15;
+        grid-row-end: 16;
+    }
+
+
+    .m7v4__forward {
+        grid-column-start: 8;
+        grid-column-end: 9;
+        grid-row-start: 11;
+        grid-row-end: 12;
+
+    }
+
+    .m7v4__arrow-forward {
+        grid-column-start: 8;
+        grid-column-end: 9;
+        grid-row-start: 11;
+        grid-row-end: 12;
+    }
+
+
+}
