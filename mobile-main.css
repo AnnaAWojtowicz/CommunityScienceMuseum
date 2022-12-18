@@ -74,6 +74,10 @@
         border-top: 0;
     }
 
+    .h1__text-long {
+        font-size: (2.3rem, 10vw, 4.5rem)
+    }
+
     .m6v1__h1__text-background {
         grid-column-start: 3;
         grid-column-end: 9;
