@@ -5,7 +5,9 @@
 
 ## Project Description
 *Community Science Museum* was created to present the local science museum and welcome adults with children, teachers, researchers and all those who wish to contribute to the museum's work. The website is giving an insight into exhibitions, events and provides all necessary information before the visit. 
+
 The project has been created with the help of HTML and CSS.
+
 Since *Community Science Museum* is a schhol project that was handed in whinin a certain deadline, there is still many things that should be improved in the future. Here are some of the functions that will be implemented in the near future:
 - replacing the most of HTML-code with JavaScript so that the website can be responsive;
 - using JavaScript to enable sending emails to the museum.
