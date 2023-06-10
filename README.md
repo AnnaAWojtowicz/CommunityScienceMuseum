@@ -1,7 +1,7 @@
 # Community Science Museum
 *Community Science Museum* is a project that can be used as a museum website. 
 
-![screenshot of the landing site](https://raw.githubusercontent.com/AnnaAWojtowicz/CommunityScienceMuseum/main/screenshot.png?token=GHSAT0AAAAAACAKXWOIQHBOH7VK4JJZJ5K4ZD7QODA "screenshot of the landing site")
+![screenshot of the landing site](https://raw.githubusercontent.com/AnnaAWojtowicz/CommunityScienceMuseum/main/screenshot.png?token=GHSAT0AAAAAACAKXWOJQI3BJYIEUB4BOR7OZEE2E3A "screenshot of the landing site")
 
 ## Project Description
 *Community Science Museum* was created to present the local science museum and welcome adults with children, teachers, researchers and all those who wish to contribute to the museum's work. The website is giving an insight into exhibitions, events and provides all necessary information before the visit. 
