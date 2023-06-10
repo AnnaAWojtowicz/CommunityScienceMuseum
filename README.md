@@ -8,8 +8,8 @@
 
 The project has been created with the help of HTML and CSS.
 
-Since *Community Science Museum* is a schhol project that was handed in whinin a certain deadline, there is still many things that should be improved in the future. Here are some of the functions that will be implemented in the near future:
-- replacing the most of HTML-code with JavaScript so that the website can be responsive;
+Since *Community Science Museum* is a school project that was handed in whinin a certain deadline, there is still many things that should be improved in the future. Here are some of the functions that will be implemented in the near future:
+- replacing the most of HTML-code with JavaScript so that the website can be dynamic;
 - using JavaScript to enable sending emails to the museum.
 
 ## Built With
